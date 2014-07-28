@@ -1,0 +1,118 @@
+//Header
+
+.global-header {
+    background-color: $header-colour;
+    width:100%;
+    h1 a:focus {
+        background-color:transparent;
+        outline:none;
+    }
+    a:focus {
+        color:$black-2;
+    }
+
+    .header-wrapper {
+        max-width:990px;
+        margin:0 auto;
+        padding:0.5em 0;
+        .ie7 & {
+            width:940px;
+        }
+        .ie6 & {
+            width:910px;
+        }
+
+        &:after {
+            content:"";
+            display:block;
+            clear:both;
+        }
+        > .content {
+          margin:0 15px;
+        }
+    }
+    .header-global {
+        &:after {
+            content:"";
+            display:block;
+            clear:both;
+        }
+        .header-logo {
+            float: left;
+            width:100%;
+            margin:5px 0 2px;
+        }
+        @media (min-width: $device-medium) {
+            float:left;
+            width:33.33%;
+        }     
+    }
+
+    a.logo {
+        float:left;
+        position:relative;
+        top:1px;
+        height:30px;
+        overflow:visible;
+        vertical-align:baseline;
+        color:white;
+        font-weight:bold;
+        font-size:30px;
+        line-height:1em;
+        text-decoration:none;
+        text-rendering:optimizeLegibility;
+        padding-bottom:1px;
+        margin-bottom:-1px;
+
+        img {
+            position:relative;
+            top:-2px;
+            width:35px;
+            height:31px;
+            padding-right:6px;
+            float:left;
+            display:inline;
+            line-height:inherit;
+            border:none;
+        }
+
+        &:hover {
+            text-decoration:none;
+            border-bottom:1px solid;
+            padding-bottom:0;
+        }
+    }
+
+    .header-logo {
+        float:left;
+        margin:5px 0 2px;
+        .content {
+            float:left;
+            position:relative;
+            top:1px;
+            height:30px;
+            overflow:visible;
+            vertical-align:baseline;
+            color:$white;
+            font-weight:bold;
+            font-size:30px;
+            line-height:1em;
+            text-decoration:none;
+            text-rendering:optimizeLegibility;
+            margin-bottom:-1px;
+            padding:0 15px 1px 15px;
+
+            img {
+                position:relative;
+                top:-2px;
+                width:35px;
+                height:31px;
+                padding-right:6px;
+                float:left;
+                display:inline;
+                line-height:inherit;
+                border:none;
+            }
+        }
+    }
+}
