@@ -1,12 +1,11 @@
+//main styles
+
+@import 'base/_reset';
 @import 'base/_colours';
 @import 'base/_font_stack';
 @import 'base/_typography';
 
 $html-name-space:'.dvla-open-source';
-
-html, body, button, input, table, td, th {
-  font-family:$NTA-Light;
-}
 
 #{$html-name-space} {
   background:#FFF;
@@ -16,6 +15,14 @@ html, body, button, input, table, td, th {
   .section-content {
     padding:1.7em 15px 0 15px;
     margin-bottom:4em;
+  }
+
+  .section {
+    padding:3em 0;
+    border-bottom:solid 1px #E4E4E4;
+    &:last-child {
+      border-bottom:0 none;
+    }
   }
 
 }

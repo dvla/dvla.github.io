@@ -2,30 +2,83 @@
 
 @import '_font_stack';
 
-//common elements
+html, body, button, input, table, td, th {
+  font-family:$NTA-Light;
+}
 
 ol, ul {
-    list-style: inherit;
+  list-style: inherit;
 }
 
 nav {
-    ol, ul {
-        list-style: inherit;
-    }
+  ol, ul {
+    list-style: inherit;
+  }
 }
 
 a {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
-    color: $purple-2;
-    &:hover, &:active {
-        color: $link-active-colour;
-    }
-    &:focus {
-        background-color: $yellow;
-        outline: 3px solid $yellow;
-    }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+  color: $purple-2;
+  &:hover, &:active {
+    color: $link-active-colour;
+  }
+  &:focus {
+    background-color: $yellow;
+    outline: 3px solid $yellow;
+  }
 }
 
 b, strong {
-    font-weight: 600;
+  font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8, h9 {
+  font-weight:bold;
+}
+
+h1,
+h2 {
+  margin:0;
+  padding:0 0 0.5em 0;
+}
+  
+h1 {
+  font-size:36px;
+}
+
+h2 {
+  font-size:30px;
+}
+
+h3 {
+  font-size:25px;
+  margin:0;
+  padding:1em 0;
+}
+
+p {
+  margin:0 0 1em 0;
+  line-height:1.25;
+  &:last-child {
+    .section & {
+      margin-bottom:0;
+    }
+  }
+  
+}
+
+ul,
+ol {
+  margin:2em 0 2em 1em;
+  padding:0;
+  @media (min-width:767px) {
+    margin:2em 0 2em 3em;
+  }
+}
+
+li {
+  margin:0 0 1em 0;
+  padding:0;
+  font-size:0.9em;
+  line-height:1.25;
 }

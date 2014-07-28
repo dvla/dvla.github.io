@@ -1,9 +1,40 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
 @font-face {
   font-family: GDS-Logo;
   src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica"); }
 @font-face {
   font-family: GDS-Logo;
   src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica"); }
+html, body, button, input, table, td, th {
+  font-family: "nta", Arial, sans-serif; }
+
 ol, ul {
   list-style: inherit; }
 
@@ -22,8 +53,45 @@ a {
 b, strong {
   font-weight: 600; }
 
-html, body, button, input, table, td, th {
-  font-family: "nta", Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6, h7, h8, h9 {
+  font-weight: bold; }
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0 0 0.5em 0; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 30px; }
+
+h3 {
+  font-size: 25px;
+  margin: 0;
+  padding: 1em 0; }
+
+p {
+  margin: 0 0 1em 0;
+  line-height: 1.25; }
+  .section p:last-child {
+    margin-bottom: 0; }
+
+ul,
+ol {
+  margin: 2em 0 2em 1em;
+  padding: 0; }
+  @media (min-width: 767px) {
+    ul,
+    ol {
+      margin: 2em 0 2em 3em; } }
+
+li {
+  margin: 0 0 1em 0;
+  padding: 0;
+  font-size: 0.9em;
+  line-height: 1.25; }
 
 .dvla-open-source {
   background: #FFF;
@@ -32,3 +100,8 @@ html, body, button, input, table, td, th {
   .dvla-open-source .section-content {
     padding: 1.7em 15px 0 15px;
     margin-bottom: 4em; }
+  .dvla-open-source .section {
+    padding: 3em 0;
+    border-bottom: solid 1px #E4E4E4; }
+    .dvla-open-source .section:last-child {
+      border-bottom: 0 none; }
