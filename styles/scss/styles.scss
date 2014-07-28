@@ -1,11 +1,15 @@
 //main styles
 
 @import 'base/_reset';
+@import 'base/_config';
 @import 'base/_colours';
 @import 'base/_font_stack';
 @import 'base/_typography';
+@import 'base/header/_header';
 
-$html-name-space:'.dvla-open-source';
+body {
+  -webkit-font-smoothing: antialiased;
+}
 
 #{$html-name-space} {
   background:#FFF;

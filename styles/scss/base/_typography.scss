@@ -71,7 +71,7 @@ ul,
 ol {
   margin:2em 0 2em 1em;
   padding:0;
-  @media (min-width:767px) {
+  @media (min-width:$device-medium) {
     margin:2em 0 2em 3em;
   }
 }
