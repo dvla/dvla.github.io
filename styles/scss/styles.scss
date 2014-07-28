@@ -1,2 +1,21 @@
-//config
-$html-name-space:'dvla-open-source';
+@import 'base/_colours';
+@import 'base/_font_stack';
+@import 'base/_typography';
+
+$html-name-space:'.dvla-open-source';
+
+html, body, button, input, table, td, th {
+  font-family:$NTA-Light;
+}
+
+#{$html-name-space} {
+  background:#FFF;
+  margin:0 auto;
+  max-width:980px;
+
+  .section-content {
+    padding:1.7em 15px 0 15px;
+    margin-bottom:4em;
+  }
+
+}

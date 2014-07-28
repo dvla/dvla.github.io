@@ -1,0 +1,31 @@
+//Typography 
+
+@import '_font_stack';
+
+//common elements
+
+ol, ul {
+    list-style: inherit;
+}
+
+nav {
+    ol, ul {
+        list-style: inherit;
+    }
+}
+
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+    color: $purple-2;
+    &:hover, &:active {
+        color: $link-active-colour;
+    }
+    &:focus {
+        background-color: $yellow;
+        outline: 3px solid $yellow;
+    }
+}
+
+b, strong {
+    font-weight: 600;
+}
