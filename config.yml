@@ -86,10 +86,10 @@ params:
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+    # bing:
+    #   SiteVerificationTag: "XYZabc"
+    # yandex:
+    #   SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
