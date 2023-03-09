@@ -44,16 +44,16 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon/favicon.ico"
+    favicon16x16: "/favicon/favicon-16x16.png"
+    favicon32x32: "/favicon/favicon-32x32.png"
+    apple_touch_icon: "/favicon/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon/favicon-16x16.png"
 
   label:
     text: "DVLA Engineering"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    icon: /favicon/apple-touch-icon.png
+    iconHeight: 49
 
   # profile-mode
   profileMode:
@@ -73,7 +73,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "DVLA Engineering."
-    Content: Welcome to the Driver and Vehicle Licencing github pages site which contains technical posts and information about our open-source libraries.
+    Content: Welcome to the [Driver and Vehicle Licencing](https://dvladigital.blog.gov.uk/) engineering site which contains technical posts and information about [our open-source projects](/open-source/).
 
   socialIcons:
     # - name: twitter
