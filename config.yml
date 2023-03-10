@@ -8,14 +8,15 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-# googleAnalytics: UA-123-45
+# can not use GTM prefix due to limitation in hugo _internals/google-analytics.html
+googleAnalytics: G-WH4N9FEEE8
 
 minify:
   disableXML: true
   minifyOutput: true
 
 params:
-  env: development
+  env: production
   title: DVLA Engineering
   description: "Github pages site for engineering teams at the Driver and Vehicle Licencing Agency"
   keywords: [DVLA, Engineering]
@@ -26,7 +27,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -83,9 +84,9 @@ params:
     - name: github
       url: "https://github.com/dvla/"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
     # bing:
     #   SiteVerificationTag: "XYZabc"
     # yandex:
@@ -96,10 +97,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/dvla/dvla.github.io/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html

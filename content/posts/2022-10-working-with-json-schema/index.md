@@ -2,7 +2,7 @@
 author: "Tom Collins"
 title: "Working with JSON Schema"
 description: "How we use JSON schema to describe data models, produce human friendly documentation and generate code."
-draft: true
+draft: false
 date: 2022-10-25
 tags: ["json-schema", "tooling"]
 categories: ["json-schema", "tooling"]

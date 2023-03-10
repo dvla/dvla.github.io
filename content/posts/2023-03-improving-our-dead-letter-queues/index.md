@@ -1,9 +1,9 @@
 ---
 author: "Tom Collins"
-title: "Improving our dead-letter queue monitoring and alerting"
+title: "Improving our dead-letter queues"
 description: "Lessons learnt the hard way about dead letter retention limits and alarm configuration."
-draft: true
-date: 2023-02-27
+draft: false
+date: 2023-03-10
 tags: ["DLQ", "AWS"]
 categories: ["AWS"]
 ShowToc: true
@@ -39,9 +39,9 @@ When handling a message various scenarios can result in not being unable to comp
 
 - the content of a message is invalid
 - you have a defect in the handler
-- a dependency, such as a HTTP API, is unavailable 
+- a dependency, such as a HTTP API, is unavailable
 
-You may configure your implementation to retry the processing of a failed message multiple times, but at some point you will decide that it can not be handled and place it on a separate dead-letter queue [3]. 
+You may configure your implementation to retry the processing of a failed message multiple times, but at some point you will decide that it can not be handled and place it on a separate dead-letter queue [3].
 
 _At this point you probably want to alert a human [4] who can investigate and take appropriate action to resolve the situation._
 
@@ -54,7 +54,6 @@ We don't want items appearing on our DLQ as it means something has gone wrong an
 ### Move items back to the source queue
 
 If your messages were moved to the DLQ because a dependency was temporarily unavailable then you may just need to move the messages back onto the source queue (once the dependency is available) so they can be processed again.
-
 
 {{< figure src="images/aws-sqs-dlq-redrive.jpeg" title="The DLQ redrive feature as it appears in the AWS console." >}}
 
@@ -76,41 +75,41 @@ Other scenarios and queuing services may require a different approach and you sh
 
 {{< figure src="images/sqs-deletes-messages.png"  >}}
 
-We use AWS SQS for both source queues and a dead-letter queues and SQS has a [maximum message retention period](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-basic-architecture.html) of fourteen days. Once a message has sat on a queue for this duration *the message will be deleted*.
+We use AWS SQS for both source queues and a dead-letter queues and SQS has a [maximum message retention period](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-basic-architecture.html) of fourteen days. Once a message has sat on a queue for this duration _the message will be deleted_.
 
-In general fourteen days is more then adequate for message processing, even accounting for retries and backoff. 
+In general fourteen days is more then adequate for message processing, even accounting for retries and backoff.
 
 ### Messages can sit on a DLQ waiting for action to be taken
 
-But what happens when your message sits on a DLQ waiting for a human to take action? 
+But what happens when your message sits on a DLQ waiting for a human to take action?
 
 - If a human is alerted quickly and takes appropriate action within fourteen days then everything is fine
 - If a human is not alerted quickly, or does not take appropriate action, then the message is going to sit on the queue until it is **deleted and lost forever**
 
 ---
 
-## How we lost some messages 
+## How we lost some messages
 
 You can probably work this out by now but:
 
-- 👎 20+ critical messages landed on a SQS DLQ 
+- 👎 20+ critical messages landed on a SQS DLQ
 - 👍 a CloudWatch alarm was triggered
 - 👍 a human was alerted quickly via a PagerDuty alert
-- 👍 a human looked at the incident 
-- 👎 but the human did not take appropriate action 
+- 👍 a human looked at the incident
+- 👎 but the human did not take appropriate action
 - ⌛ the messages sat on the queue for 14 days
 - 💀 the messages hit the maximum retention limit and were deleted
 - ⌛ we didn't discover this until several weeks later
 
 ### It's not about blaming the human
 
-Humans make mistakes, defects will make it to production, this is ok, its going to happen, its not about blame and this is how we learn and gain experience. 
+Humans make mistakes, defects will make it to production, this is ok, its going to happen, its not about blame and this is how we learn and gain experience.
 
-What is important is how you respond and how you identify and implement actions to avoid repeating the same mistake again. 
+What is important is how you respond and how you identify and implement actions to avoid repeating the same mistake again.
 
-### What happened next 
+### What happened next
 
-This time we were lucky, we were able to perform reconciliation activities and recreate the lost messages. 
+This time we were lucky, we were able to perform reconciliation activities and recreate the lost messages.
 
 This involved verifying that each source record from this period had been processed by the target system. For any records that had not been processed we were able to recreate the lost message, using the data in the source record, and complete processing.
 
@@ -121,55 +120,61 @@ In another context this could have been far worse e.g.
 
 ---
 
-## How we have improved our approach 
+## How we have improved our DLQ alerting
 
-Clearly we don't want to lose messages or data, so we spent some time analysing what went wrong and what we could do to improve the situation.
+> We don't want to lose data, it is critical we are notified when messages land on a DLQ
 
-### Improving out alerting
+Clearly we don't want to lose messages, so we spent some time analysing what went wrong and what we could do to improve our alarms and alerting.
 
-{{< figure src="images/approx-number-of-messages-visible.png"  >}}
+### Understanding our DLQ alarm behaviour
 
-Even though the messages were moved to the DLQ in multiple phases over a period of time, a single alarm was triggered meaning just a single incident was raised. 
+{{< figure src="images/approx-number-of-messages-visible-with-alarm.png"  caption="Our original alarm threshold was triggered once when messages were initially  added to the queue."  >}}
+
+Messages were added to the DLQ in distinct phases over a period of time but just a single alarm was triggered and a single incident raised.
 
 This isn't ideal so we asked ourselves how we could trigger multiple alarms to increase awarness of the issue and the likelihood of it being handled correctly.
 
 #### How was our alarm configured?
 
-The alarm logic was basically:
+The alarm threshold logic was:
 
 > if the number of messages on the DLQ is > 0 then raise an alarm
 
-Which turned out to be a little naive causing just a single alarm to be triggered when the DLQ first moved from 0 to > 0 e.g.
+Which turned out to be a little naive causing just a single alarm to be triggered when the DLQ first moved to > 0.
 
-| Time | DLQ Size | Error  | DLQ Size > 0 | Alarm raised | 
-|--|--|--|--|--|
-| 07:50 | 0 | - | - | - |
-| 07:53 | 3 | ✔️ | ✔️ | ✔️ |
-| 08:00 | 3 | - |  ✔️ |- |
-| 08:02 | 10 | ✔️ |  ✔️ |- |
-| 08:10 | 10 | - |  ✔️ |-|
-| 08:13 | 11 | ✔️ |  ✔️ |- |
+We would not get any further alarms being triggered while the number of items on the queue remained above zero, even if messages were being added to the DLQ every 10 minutes for the next 4 weeks.
 
-The alarm threshold was met once at 07:53 and entered an `ALARM` state, but never returned to an `OK` state to be triggered again.
+| Time  | Error | DLQ Size | DLQ Size > 0 | Alarm State | Alert |
+| ----- | ----- | -------- | ------------ | ----------- |--| 
+| 07:50 | -     | 0        | -            | `OK`        | |
+| 07:53 | ✔️     | 3        | ✔️            | `ALARM`     | 🔔 | 
+| 08:00 | -     | 3        | ✔️            | `ALARM`     | |
+| 08:02 | ✔️     | 10       | ✔️            | `ALARM`     | |
+| 08:10 | -     | 10       | ✔️            | `ALARM`     |  |
+| 08:13 | ✔️     | 11       | ✔️            | `ALARM`     | |
+
+The alarm threshold was met once at 07:53 and entered an `ALARM` state, but never returned to an `OK` state so was never in a position to be triggered again.
 
 ### Firing an alarm each time messages are added to the DLQ
 
-When we discussed this across our engineering community we learnt that some teams had a better approach:
+We discussed the incident at one of our regular engineering community of practice meetings, both to raise awareness and to try and learn from each other. One of our teams shared their approach:
 
 > if the number of messages added to the DLQ in the last 5 minutes > 0 then raise an alarm
 
-Which results in additonal alarms to be triggered:
+Which results in the alarm being triggered multiple times:
 
-| Time | DLQ Size | Error  | DLQ Size (5 mins) | Alarm raised | 
-|--|--|--|--|--|
-| 07:50 | 0 | - | 0 | - |
-| 07:53 | 3 | ✔️ | 3 | ✔️ |
-| 08:00 | 3 | - | 0 | - |
-| 08:02 | 10 | ✔️ | 7 | ✔️ |
-| 08:10 | 10 | - | 0 | - |
-| 08:13 | 11 | ✔️ | 1 | ✔️ | 
+| Time  | Error | DLQ Size | DLQ Size (5 mins) | Alarm State |Alert |
+| ----- | ----- | -------- | ----------------- | ----------- |--|
+| 07:50 | -     | 0        | 0                 | `OK`        | |
+| 07:53 | ✔️     | 3        | **3**             | `ALARM`        | 🔔 |
+| 08:00 | -     | 3        | 0                 | `OK`        |  |
+| 08:02 | ✔️     | 10       | **7**             | `ALARM`        | 🔔 |
+| 08:10 | -     | 10       | 0                 | `OK`        |  |
+| 08:13 | ✔️     | 11       | **1**             | `ALARM`        | 🔔 |
 
-Now the threshold is being met and entering `ALARM` but returns to `OK` within five minutes allowing the threshold to be triggered again when subsequent messages are added to the queue. Much better.
+The threshold is met at 07:53 entering an `ALARM` state then returns to `OK` within five minutes. This allows the threshold to crossed again when subsequent messages are added to the queue (08:02, 08:13). Much nicer.
+
+{{< figure src="images/approx-number-of-messages-visible-with-alarms.png"  caption="Now the alarm triggers multiple times.">}}
 
 If you want to set his up in Cloudwatch it will look something like this:
 
@@ -193,9 +198,9 @@ DLQueueAlarm:
         - Ref: DLQueueAlarmTopic
 ```
 
-### Firing an alarm every day
+### Firing an alarm every day if there are messages on the DLQ
 
-We also thought about what we could do to minimise the impact of a human not handling an incident correctly and decided that it would be helpful to raise a new alert for each day that we had messages sat on a DLQ. 
+We also thought about what we could do to minimise the impact of a human not handling an incident correctly and decided that it would be helpful to raise a new alert for each day that we had messages sat on a DLQ.
 
 One of our developers came up with a really neat cloudwatch expression that makes this possible through simple config :
 
@@ -205,7 +210,7 @@ Which will result in the alarm being triggered at around 7am each day if there a
 
 {{< figure src="images/sqs-daily-alarm.png" title="Daily DLQ alarm" caption="The expression means that the alarm enters an ALARM state at 7 and returns to OK at 9." >}}
 
-_Kudos to Matt Lewis for figuring this out 🙌_
+_Kudos to [Matthew Lewis](https://www.linkedin.com/in/matthew-lewis-277a7157/) for figuring this out 🙌_
 
 And in CloudFormation:
 
@@ -225,7 +230,7 @@ DLQDailyAlarm:
         ReturnData: true
 ```
 
-### A note on PagerDuty integration
+### Looking at our PagerDuty integration
 
 We use PagerDuty to manage incidents and alert engineers.
 
@@ -233,7 +238,7 @@ When integrating Cloudwatch alarms with PagerDuty to raise [Alerts](https://supp
 
 **Ok actions and auto-resolving alerts**
 
-When the number of messages added to the DQL within 5 minutes drops to zero the cloudwatch alarm will return to an `OK` state 
+When the number of messages added to the DQL within 5 minutes drops to zero the cloudwatch alarm will return to an `OK` state
 
 If you integrate a Cloudwatch `OK` action with PagerDuty this will cause the PagerDuty Alert to be auto-resolved and closed before a human has had time to notice and take appropriate action.
 
@@ -247,8 +252,23 @@ To ensure that you raise a new alert each day you will need to configure how Pag
 
 {{< figure src="images/cloudwatch-pagerduty-integration.png" title="Configure your Cloudwatch integration within PagerDuty to ensure a new incident is raised each time your alarm triggers." >}}
 
-### Ensuring that we always have a backup of our messages
+---
 
-We are also looking at patterns that ensure we can hold a copy of messages for a reasonable duration of time, which would help is scenarios like this.
+## Other Improvements
 
-This cou
+### Persisting a copy of our messages
+
+We are also reviewing out patterns to ensure we can always persist a copy of a messages, or the data required to create a message, for a reasonable duration of time, which would help is scenarios like this.
+
+This could be as simple as:
+
+- using Amazon EventBridge instead of SQS as it has an [archive and replay](https://aws.amazon.com/blogs/aws/new-archive-and-replay-events-with-amazon-eventbridge/) capability.
+- adding Amazon SNS in front of SQS and [using the fan-out pattern to archive messages in S3](https://docs.aws.amazon.com/sns/latest/dg/firehose-example-use-case.html).
+
+---
+
+## Summary
+
+Hopefully this article will help you think a little more about how you are using DLQs and the processes you have in place to handle any messages that land on them.
+
+All being well this isn't someything you'll have to do frequently but it may be worth reviewing your approach and what alarms or alerts you have in place.
