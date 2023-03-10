@@ -260,8 +260,9 @@ To ensure that you raise a new alert each day you will need to configure how Pag
 
 We are also reviewing out patterns to ensure we can always persist a copy of a messages, or the data required to create a message, for a reasonable duration of time, which would help is scenarios like this.
 
-This could be as simple as:
+This could include:
 
+- ensuring we always write the data or a message into a database or other persistant store before writing to a queue
 - using Amazon EventBridge instead of SQS as it has an [archive and replay](https://aws.amazon.com/blogs/aws/new-archive-and-replay-events-with-amazon-eventbridge/) capability.
 - adding Amazon SNS in front of SQS and [using the fan-out pattern to archive messages in S3](https://docs.aws.amazon.com/sns/latest/dg/firehose-example-use-case.html).
 
