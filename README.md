@@ -4,10 +4,7 @@
 
 ## Content Guidelines
 
-Post content must not include:
-
-- identifiers for production infrastructure e.g. IP addresses, network ranges, cloud provider IDs etc
-- data relating to real customers or staff members
+Post content must have a strong technical focus with other engineers being the primary audience. There are other communication channels for non-technical content and delivery or service updates such as [dvladigital.blog.gov.uk](https://dvladigital.blog.gov.uk/).
 
 ### Content Guidelines - Security
 
@@ -17,10 +14,21 @@ Consider if the content of your post, including and images, has any security con
 - is the content too revealing of backend processes?
 - do we need to make make specific details public?
 
+Post content must not include:
+
+- identifiers for production infrastructure e.g. IP addresses, network ranges, cloud provider IDs etc
+- data relating to real customers or staff members
+
 If you have any doubt please seek support from the cyber security team before publishing your content.
 
-### Content Guidelines - Reputation
+### Content Guidelines - Communication
 
+Your post content should not describe, or be directly related to:
+
+- changes that impact staff experience e.g. automation of work, changes to the types of work undertaken
+- changes that impact customers experience e.g. changes to customer process, customer waiting times
+- specific DVLA internal or external services 
+  
 You must consider if the content of your post could cause damage to the reputation of the organisation. 
 
 If you have any doubt please seek support from the communications team before publishing your content.
