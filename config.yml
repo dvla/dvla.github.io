@@ -73,7 +73,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "DVLA Engineering."
+    Title: "DVLA Engineering"
     Content: Welcome to the [Driver and Vehicle Licencing](https://dvladigital.blog.gov.uk/) engineering site which contains technical posts and information about [our open-source projects](/open-source/).
 
   socialIcons:
