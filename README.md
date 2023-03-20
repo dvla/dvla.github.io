@@ -23,15 +23,15 @@ If you have any doubt please seek support from the cyber security team before pu
 
 ### Content Guidelines - Communication
 
+You must consider if the content of your post could cause damage to the reputation of the organisation.
+
 Your post content should not describe, or be directly related to:
 
 - changes that impact staff experience e.g. automation of work, changes to the types of work undertaken
 - changes that impact customers experience e.g. changes to customer process, customer waiting times
-- specific DVLA internal or external services 
-  
-You must consider if the content of your post could cause damage to the reputation of the organisation. 
+- specific DVLA internal or external services
 
-If you have any doubt please seek support from the communications team before publishing your content.
+If you have any doubt please seek support from the [External Communications](mailto:external.comms@dvla.gov.uk) team before publishing your content.
 
 ## Approval Process
 
