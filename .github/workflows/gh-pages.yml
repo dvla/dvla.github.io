@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - feature/fix-publishing
   pull_request:
 
 permissions:
