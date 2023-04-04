@@ -33,7 +33,7 @@ jobs:
         run: |
           hugo --minify
           ls -lah .
-          ls -lah ./pages
+          ls -lah ./public
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
