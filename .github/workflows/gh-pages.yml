@@ -42,4 +42,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           allow_empty_commit: true
+          force_orphan: true
+          
           
