@@ -145,13 +145,13 @@ Which turned out to be a little naive causing just a single alarm to be triggere
 We would not get any further alarms being triggered while the number of items on the queue remained above zero, even if messages were being added to the DLQ every 10 minutes for the next 4 weeks.
 
 | Time  | Error | DLQ Size | DLQ Size > 0 | Alarm State | Alert |
-| ----- | ----- | -------- | ------------ | ----------- |--| 
-| 07:50 | -     | 0        | -            | `OK`        | |
-| 07:53 | ✔️     | 3        | ✔️            | `ALARM`     | 🔔 | 
-| 08:00 | -     | 3        | ✔️            | `ALARM`     | |
-| 08:02 | ✔️     | 10       | ✔️            | `ALARM`     | |
-| 08:10 | -     | 10       | ✔️            | `ALARM`     |  |
-| 08:13 | ✔️     | 11       | ✔️            | `ALARM`     | |
+| ----- | ----- | -------- | ------------ | ----------- | ----- |
+| 07:50 | -     | 0        | -            | `OK`        |       |
+| 07:53 | ✔️    | 3        | ✔️           | `ALARM`     | 🔔    |
+| 08:00 | -     | 3        | ✔️           | `ALARM`     |       |
+| 08:02 | ✔️    | 10       | ✔️           | `ALARM`     |       |
+| 08:10 | -     | 10       | ✔️           | `ALARM`     |       |
+| 08:13 | ✔️    | 11       | ✔️           | `ALARM`     |       |
 
 The alarm threshold was met once at 07:53 and entered an `ALARM` state, but never returned to an `OK` state so was never in a position to be triggered again.
 
@@ -163,14 +163,14 @@ We discussed the incident at one of our regular engineering community of practic
 
 Which results in the alarm being triggered multiple times:
 
-| Time  | Error | DLQ Size | DLQ Size (5 mins) | Alarm State |Alert |
-| ----- | ----- | -------- | ----------------- | ----------- |--|
-| 07:50 | -     | 0        | 0                 | `OK`        | |
-| 07:53 | ✔️     | 3        | **3**             | `ALARM`        | 🔔 |
-| 08:00 | -     | 3        | 0                 | `OK`        |  |
-| 08:02 | ✔️     | 10       | **7**             | `ALARM`        | 🔔 |
-| 08:10 | -     | 10       | 0                 | `OK`        |  |
-| 08:13 | ✔️     | 11       | **1**             | `ALARM`        | 🔔 |
+| Time  | Error | DLQ Size | DLQ Size (5 mins) | Alarm State | Alert |
+| ----- | ----- | -------- | ----------------- | ----------- | ----- |
+| 07:50 | -     | 0        | 0                 | `OK`        |       |
+| 07:53 | ✔️    | 3        | **3**             | `ALARM`     | 🔔    |
+| 08:00 | -     | 3        | 0                 | `OK`        |       |
+| 08:02 | ✔️    | 10       | **7**             | `ALARM`     | 🔔    |
+| 08:10 | -     | 10       | 0                 | `OK`        |       |
+| 08:13 | ✔️    | 11       | **1**             | `ALARM`     | 🔔    |
 
 The threshold is met at 07:53 entering an `ALARM` state then returns to `OK` within five minutes. This allows the threshold to crossed again when subsequent messages are added to the queue (08:02, 08:13). Much nicer.
 
@@ -197,6 +197,10 @@ DLQueueAlarm:
         AlarmActions:
         - Ref: DLQueueAlarmTopic
 ```
+
+> Update 2022-04-04 - it turns out that this example only works when manually adding messages to your DLQ (which you may do while testing thge alarm). You can achieve something equivilent using `RATE(ApproximateNumberOfMessagesVisible)>0` and I'll update this example to reflect this ASAP.
+
+> _Thanks to [Sam Dengler](https://www.linkedin.com/in/samdengler/) for getting in touch to point this out. For more info see [NumberOfMessagesSent does not increase as the result of a failure in the source queue](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html#sqs-dead-letter-queues-troubleshooting)_
 
 ### Firing an alarm every day if there are messages on the DLQ
 
