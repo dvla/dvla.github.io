@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AWS on DVLA Engineering</title>
+    <link>https://dvla.github.io/tags/aws/</link>
+    <description>Recent content in AWS on DVLA Engineering</description>
+    <image>
+      <title>DVLA Engineering</title>
+      <url>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improving our dead-letter queues</title>
+      <link>https://dvla.github.io/posts/2023-03-improving-our-dead-letter-queues/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/posts/2023-03-improving-our-dead-letter-queues/</guid>
+      <description>Lessons learnt the hard way about dead letter retention limits and alarm configuration.</description>
+    </item>
+    
+  </channel>
+</rss>

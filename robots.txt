@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://dvla.github.io/sitemap.xml

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on DVLA Engineering</title>
+    <link>https://dvla.github.io/tags/</link>
+    <description>Recent content in Tags on DVLA Engineering</description>
+    <image>
+      <title>DVLA Engineering</title>
+      <url>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS</title>
+      <link>https://dvla.github.io/tags/aws/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DLQ</title>
+      <link>https://dvla.github.io/tags/dlq/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/dlq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>json-schema</title>
+      <link>https://dvla.github.io/tags/json-schema/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/json-schema/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tooling</title>
+      <link>https://dvla.github.io/tags/tooling/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/tooling/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
