@@ -198,7 +198,7 @@ DLQueueAlarm:
         - Ref: DLQueueAlarmTopic
 ```
 
-> Update 2022-04-04 - it turns out that this example only works when manually adding messages to your DLQ (which you may do while testing thge alarm). You can achieve something equivilent using `RATE(ApproximateNumberOfMessagesVisible)>0` and I'll update this example to reflect this ASAP.
+> Update 2022-04-04 - it turns out that this example only works when manually adding messages to your DLQ (which you may do while testing the alarm). You can achieve something equivalent using `RATE(ApproximateNumberOfMessagesVisible)>0` and I'll update this example to reflect this ASAP.
 
 > _Thanks to [Sam Dengler](https://www.linkedin.com/in/samdengler/) for getting in touch to point this out. For more info see [NumberOfMessagesSent does not increase as the result of a failure in the source queue](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-dead-letter-queues.html#sqs-dead-letter-queues-troubleshooting)_
 
