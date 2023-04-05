@@ -18,7 +18,7 @@ Typically engineering teams will want to be alerted quickly to the presence of i
 
 In this post we'll discuss how we lost messages that had been placed on a dead-letter queue, how we have learnt from this experience and what we have done to improve our processes.
 
-[^1]: To be more accurate DLQs are used with a wide within a range of service integration patterns (queues, buses, topics etc) and can be plugged into many cloud vendor managed services to help with processing or delivery failures.
+[^1]: To be more accurate DLQs are used within a wide range of service integration patterns (queues, buses, topics etc) and can be plugged into many cloud vendor managed services to help with processing or delivery failures.
 
 ## Background
 
