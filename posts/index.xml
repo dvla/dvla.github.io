@@ -10,7 +10,16 @@
       <link>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why we wrote Herodotus</title>
+      <link>https://dvla.github.io/posts/2023-05-logging-with-herodotus/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/posts/2023-05-logging-with-herodotus/</guid>
+      <description>A look at the gem Herodotus and the problems we have been using it to solve.</description>
+    </item>
+    
     <item>
       <title>Improving our dead-letter queues</title>
       <link>https://dvla.github.io/posts/2023-03-improving-our-dead-letter-queues/</link>
