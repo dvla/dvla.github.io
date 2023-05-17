@@ -12,7 +12,7 @@ TocOpen: true
 
 We've written Herodotus[^1] as a lightweight logger to solve some very specific problems we had in our tests, but we don't think they are unique to us so we're going to share with you what we have done and why.
 
-[^1]: Herodotus is named after [a greek scholar and historian](https://en.wikipedia.org/wiki/Herodotus). One of the most famous works that Herodotus produced was the "Histories" which are some very important lodsfgs
+[^1]: Herodotus is named after [a greek scholar and historian](https://en.wikipedia.org/wiki/Herodotus). One of the most famous works that Herodotus produced was the "Histories" which are some very important logs
 
 ## Logging to the standard output and the main problem we faced
 
