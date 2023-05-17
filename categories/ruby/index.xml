@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ruby on DVLA Engineering</title>
+    <title>Ruby on DVLA Engineering</title>
     <link>https://dvla.github.io/categories/ruby/</link>
-    <description>Recent content in ruby on DVLA Engineering</description>
+    <description>Recent content in Ruby on DVLA Engineering</description>
     <image>
       <title>DVLA Engineering</title>
       <url>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,6 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/categories/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FakerMaker Initialisation</title>
+      <link>https://dvla.github.io/posts/2023-05-faker-maker-initialisation/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/posts/2023-05-faker-maker-initialisation/</guid>
+      <description>Initialising FakerMaker objects and doing so with greater efficiency.</description>
+    </item>
+    
     <item>
       <title>Why we wrote Herodotus</title>
       <link>https://dvla.github.io/posts/2023-05-logging-with-herodotus/</link>
