@@ -38,6 +38,10 @@ A way to repeat a block of code until either a given condition is met or a timeo
 
 This gem is a Ruby-Cucumber formatter which sends the test output to [Report Portal](https://reportportal.io/). This formatter supports plain 'ol Cucumber tests and those wrapped with parallel_tests.
 
+### [dvla-herodotus-ruby](https://github.com/dvla/herodotus)
+
+This gem provides a lightweight logger that adds functionality to the built in one, allowing for correlation ids to be tracked across various processes.
+
 # Dynamics 365
 
 ### [dataverse-helper](https://github.com/dvla/dataverse-helper)
