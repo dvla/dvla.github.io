@@ -20,5 +20,14 @@
       <description>Initialising FakerMaker objects and doing so with greater efficiency.</description>
     </item>
     
+    <item>
+      <title>Testing Standard-Out in Ruby</title>
+      <link>https://dvla.github.io/posts/2023-05-testing-standard-out-in-ruby/</link>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/posts/2023-05-testing-standard-out-in-ruby/</guid>
+      <description>How to test output written to STDOUT.</description>
+    </item>
+    
   </channel>
 </rss>
