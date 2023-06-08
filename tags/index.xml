@@ -10,7 +10,53 @@
       <link>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cucumber</title>
+      <link>https://dvla.github.io/tags/cucumber/</link>
+      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/cucumber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regex</title>
+      <link>https://dvla.github.io/tags/regex/</link>
+      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/regex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://dvla.github.io/tags/ruby/</link>
+      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://dvla.github.io/tags/testing/</link>
+      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Today I Learned</title>
+      <link>https://dvla.github.io/tags/today-i-learned/</link>
+      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/today-i-learned/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Faker</title>
       <link>https://dvla.github.io/tags/faker/</link>
@@ -35,33 +81,6 @@
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://dvla.github.io/tags/logging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ruby</title>
-      <link>https://dvla.github.io/tags/ruby/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/tags/ruby/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Testing</title>
-      <link>https://dvla.github.io/tags/testing/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/tags/testing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Today I Learned</title>
-      <link>https://dvla.github.io/tags/today-i-learned/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/tags/today-i-learned/</guid>
       <description></description>
     </item>
     

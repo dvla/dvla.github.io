@@ -3,10 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dvla.github.io/categories/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/cucumber/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/cucumber/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/2023-06-efficient-cucumber-step-regex-matching/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/regex/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/regex/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/ruby/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/ruby/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/testing/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/testing/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/til/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/today-i-learned/</loc>
+    <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/faker/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
@@ -24,30 +63,6 @@
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/logging/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/posts/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/ruby/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/categories/ruby/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/testing/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/categories/testing/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/categories/til/</loc>
-    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/today-i-learned/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/posts/2023-05-logging-with-herodotus/</loc>
