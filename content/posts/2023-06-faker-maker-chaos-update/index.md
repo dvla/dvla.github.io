@@ -49,7 +49,9 @@ In general, cause chaos. So let's take that concept, and apply it to something l
  
 ## Introducing Chaos for FakerMaker
 
-Let's explore the `some_fancy_object` example from earlier. This time with Chaos enabled.
+FakerMaker v1.4 introduces chaos mode.
+
+Let's explore the `some_fancy_object` example from earlier. This time with chaos enabled.
 
 ```ruby
 FakerMaker.factory :some_fancy_object, naming: :json do
@@ -70,7 +72,7 @@ FakerMaker[:some_fancy_object].build(chaos: true).as_json
 
 When a factory is built with chaos enabled, optional fields become truly optional and may not be present in the built factory. 
 
-Not only is the data dynamic per attribute, but the attributes themselves are now dynamic ... Chaos!
+Not only is the data dynamic per attribute, but the attributes themselves are now dynamic ... chaos!
 
 Lets dig in a bit ...
 
@@ -92,11 +94,12 @@ some_optional_attribute_2(optional: 10) { Faker::Lorem.sentence } # 10% chance t
 ```
 > By default, all `optional` attributes are weighted at `50%`.
 
-Metadata on attributes provides some benefits without Chaos enabled. 
+Metadata on attributes provides some benefits without chaos enabled. 
 
-Factories are often closely related to components listed in API contracts.
+Factories are often modelling schemas listed in API contracts. These contracts state which fields are required. 
 
-These contracts state which fields are required. By having this data available on the factory it gives us a more in-depth look at the data we are modeling.
+By having this data available on the factory it gives us at a glance information at the data we are modeling without 
+the hassle of checking API contracts.
 
 ### Enabling Chaos
 
