@@ -49,7 +49,7 @@ In general, cause chaos. So let's take that concept, and apply it to something l
  
 ## Introducing Chaos for FakerMaker
 
-FakerMaker v1.4 introduces chaos mode.
+FakerMaker v2 introduces chaos mode.
 
 Let's explore the `some_fancy_object` example from earlier. This time with chaos enabled.
 
@@ -125,7 +125,7 @@ Data comes in all shapes and sizes, especially when optional attributes come int
 
 How do you know an APIs optional field is truly optional? How do you know your beautiful webpage that displays data with optional fields will actually work?
 
-Chaos introduces new combinations of tests without the hassle or mess of doing it yourself. 
+Chaos introduces new combinations of tests without the hassle or mess of doing it yourself.
 
 ### TL:DR
 - Every attribute is `optional` by default
