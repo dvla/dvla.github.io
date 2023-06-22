@@ -11,7 +11,61 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chaos</title>
+      <link>https://dvla.github.io/tags/chaos/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/chaos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FakerMaker</title>
+      <link>https://dvla.github.io/tags/fakermaker/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/fakermaker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gem</title>
+      <link>https://dvla.github.io/tags/gem/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/gem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://dvla.github.io/tags/ruby/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://dvla.github.io/tags/testing/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Today I Learned</title>
+      <link>https://dvla.github.io/tags/today-i-learned/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/today-i-learned/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Cucumber</title>
       <link>https://dvla.github.io/tags/cucumber/</link>
@@ -31,47 +85,11 @@
     </item>
     
     <item>
-      <title>Ruby</title>
-      <link>https://dvla.github.io/tags/ruby/</link>
-      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/tags/ruby/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Testing</title>
-      <link>https://dvla.github.io/tags/testing/</link>
-      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/tags/testing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Today I Learned</title>
-      <link>https://dvla.github.io/tags/today-i-learned/</link>
-      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/tags/today-i-learned/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Faker</title>
       <link>https://dvla.github.io/tags/faker/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://dvla.github.io/tags/faker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FakerMaker</title>
-      <link>https://dvla.github.io/tags/fakermaker/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/tags/fakermaker/</guid>
       <description></description>
     </item>
     

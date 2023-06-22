@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>FakerMaker on DVLA Engineering</title>
-    <link>https://dvla.github.io/categories/fakermaker/</link>
-    <description>Recent content in FakerMaker on DVLA Engineering</description>
+    <title>Chaos on DVLA Engineering</title>
+    <link>https://dvla.github.io/tags/chaos/</link>
+    <description>Recent content in Chaos on DVLA Engineering</description>
     <image>
       <title>DVLA Engineering</title>
       <url>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/categories/fakermaker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/chaos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FakerMaker Chaos Mode Update</title>
       <link>https://dvla.github.io/posts/2023-06-faker-maker-chaos-update/</link>
@@ -19,15 +19,6 @@
       
       <guid>https://dvla.github.io/posts/2023-06-faker-maker-chaos-update/</guid>
       <description>Introducing the Chaos mode update for FakerMaker</description>
-    </item>
-    
-    <item>
-      <title>FakerMaker Initialisation</title>
-      <link>https://dvla.github.io/posts/2023-05-faker-maker-initialisation/</link>
-      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/posts/2023-05-faker-maker-initialisation/</guid>
-      <description>Initialising FakerMaker objects and doing so with greater efficiency.</description>
     </item>
     
   </channel>

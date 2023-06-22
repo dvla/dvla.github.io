@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FakerMaker Chaos Mode Update</title>
+      <link>https://dvla.github.io/posts/2023-06-faker-maker-chaos-update/</link>
+      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/posts/2023-06-faker-maker-chaos-update/</guid>
+      <description>Introducing the Chaos mode update for FakerMaker</description>
+    </item>
+    
     <item>
       <title>Efficient Cucumber Step Regex Matching</title>
       <link>https://dvla.github.io/posts/2023-06-efficient-cucumber-step-regex-matching/</link>
