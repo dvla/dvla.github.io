@@ -18,7 +18,6 @@ When doing this it is important that you capture the full webpage in order to re
 
 In order to do this you will need to open your browser of choice and navigate to the page you would like to capture.
 
----
 ## Google Chrome AND Microsoft Edge
 
 Both Chrome and Edge use the same shortcut and developer tools. So follow the steps below if you are a Chrome or Edge user.
@@ -40,7 +39,6 @@ Both Chrome and Edge use the same shortcut and developer tools. So follow the st
 ![Chrome-Step-4.png](images%2FChrome-Step-4.png)
 
 ## Firefox
-
 With Firefox there are two methods to allow you take to take full size screenshots, one is with Developer Tools and the other is with a simple right click. We will go through both methods below and you can decide which you prefer.
 
 1. Firstly navigate to the page you would like to capture, and then access Developer Tools by clicking `Cmd` + `Opt` + `I` *(on Mac)* or `Ctrl` + `Shift` + `I` *(on Windows)*
@@ -57,7 +55,7 @@ With Firefox there are two methods to allow you take to take full size screensho
    ![Firefox-Step-4.png](images%2FFirefox-Step-4.png)
 
 5. When the button is clicked it will capture a screenshot of the entire page and will save it as a png to your downloads folder using the date and time the screenshot was taken followed by '-fullpage' as the name.
-    ![Firefox-Step-4.1.png](images%2FFirefox-Step-4.1.png)
+    ![Firefox-Step-4.1.png](images%2FFirefox-Step-5.png)
  
 ### Second method   
 
