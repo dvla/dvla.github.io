@@ -69,7 +69,7 @@ The second method is a lot simpler and doesn't require you to access the develop
 3. After the buttons clicked it will display the screenshot and give you the option to either download or just copy the screenshot
 ![Firefox-2-Step-3.png](images%2FFirefox-2-Step-3.png)
 4. If the you choose to download it then is will get saved to your downloads folder as a png using then date and time followed by the page's title as the screenshots name.
-![Firefox-Step-4.png](images%2FFirefox-Step-4.png)
+![Firefox-2-Step-4.png](images%2FFirefox-2-Step-4.png)
 ## Safari
 For Safari it requires a few extra steps, such as enabling the developer console.
 
@@ -87,7 +87,7 @@ Once you have got the developer console set up then you should be ready to captu
 ![Safari-Step-3.png](images%2FSafari-Step-3.png)
 
 2. `Control-click` or `right-click` while hovering over the **< html >** tag. You’ll get a flyout menu, within which you can select **Capture Screenshot**.
-![Safari_Step-4.png](images%2FSafari-Step-4..png)
+![Safari_Step-4.png](images%2FSafari-Step-4.png)
 
 3. Once clicked you will then be offered the choice of where you would like to save the screenshot and what you would like to name it.
 ![Safari-Step-5.png](images%2FSafari-Step-5.png)
