@@ -3,7 +3,7 @@ author: "Iestyn Green"
 title: "TiL: Take full-length screenshots using DevTools"
 description: "How to take full-length screenshots of webpages using DevTools"
 draft: false
-date: 2023-06-16
+date: 2023-07-12
 tags: ["TiL", "DevTools", "Screenshots", "Webpages", "Today I Learned"]
 categories: ["TIL", "DevTools"]
 ShowToc: true
@@ -32,7 +32,7 @@ Both Chrome and Edge use the same shortcut and developer tools. So follow the st
 
 3. In the search bar, immediately after the word Run >, type "screenshot".
 
-![Chrome-Step-3.png](images%2FChrome-Step-3.png)  
+![Chrome-Step-3.png](images%2FChrome-Step-3.png)
 
 4. Select Capture full size screenshot, and Chrome will automatically save a full-page screenshot to your Downloads folder as a png and it will generate the name based off the webpage's URL.
 
