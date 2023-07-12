@@ -11,11 +11,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/screenshots/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/screenshots/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TiL: Take full-length screenshots using DevTools</title>
       <link>https://dvla.github.io/posts/2023-07-taking-full-length-screenshots/</link>
-      <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://dvla.github.io/posts/2023-07-taking-full-length-screenshots/</guid>
       <description>How to take full-length screenshots of webpages using DevTools</description>
