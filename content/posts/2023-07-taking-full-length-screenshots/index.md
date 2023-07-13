@@ -16,11 +16,11 @@ Sometimes when developing a webpage you may need to send screenshots back and fo
 
 When doing this it is important that you capture the full webpage in order to really display what you're working on. Which is why introducing simple devtools may be of use.
 
-In order to do this you will need to open your browser of choice and navigate to the page you would like to capture.
+In order to do this you will need to firstly open your browser of choice and navigate to the page you would like to capture.
 
 ## Google Chrome AND Microsoft Edge
 
-Both Chrome and Edge use the same shortcut and developer tools. So follow the steps below if you are a Chrome or Edge user.
+Both Chrome and Edge use the same shortcuts and developer tools. So follow the steps below if you are a Chrome or Edge user.
 
 1. Once on the page you would like to capture you should firstly access Developer Tools by clicking `Cmd` + `Opt` + `I` *(on Mac)* or `Ctrl` + `Shift` + `I` *(on Windows)*
 
@@ -34,7 +34,7 @@ Both Chrome and Edge use the same shortcut and developer tools. So follow the st
 
 ![Chrome-Step-3.png](images%2FChrome-Step-3.png)
 
-4. Select Capture full size screenshot, and Chrome will automatically save a full-page screenshot to your Downloads folder as a png and it will generate the name based off the webpage's URL.
+4. Select 'Capture full size screenshot', and Chrome/Edge will automatically save a full-page screenshot to your Downloads folder as a png and it will generate the name based off the webpage's URL.
 
 ![Chrome-Step-4.png](images%2FChrome-Step-4.png)
 
@@ -47,7 +47,7 @@ With Firefox there are two methods to allow you take to take full size screensho
 2. Next you will want to open the developer tools setting menu by clicking on the three dots on the top right of the dev tools menu
 ![Firefox-Step-2.png](images%2FFirefox-Step-2.png)
 
-3. Once this is opened you will want to enable the "Take a screenshot of the entire page" option by clicking the tick box under "Available Toolbox Buttons"
+3. Once this is opened you will want to enable the "Take a screenshot of the entire page" option by clicking the tick box in "Available Toolbox Buttons"
 ![Firefox-Step-3.png](images%2FFirefox-Step-3.png)
 ![Firefox-Step-3.1.png](images%2FFirefox-Step-3.1.png)
 
@@ -64,11 +64,11 @@ The second method is a lot simpler and doesn't require you to access the develop
 
 1. Once on the page you would like to capture, you can right click and select 'Take Screenshot'
 ![Firefox-2-Step-1.png](images%2FFirefox-2-Step-1.png)
-2. Next the screen will go dark and you will be given the option to Drag on the page to select the region you would like to capture. But to capture the full screen you must click on the 'Save full page' button
+2. Next the screen will go dark and you will be given the option to drag and select the region you would like to capture. But to capture the full screen you must click on the 'Save full page' button
 ![Firefox-2-Step-2.png](images%2FFirefox-2-Step-2.png)
-3. After the buttons clicked it will display the screenshot and give you the option to either download or just copy the screenshot
+3. After the button is clicked it will display the screenshot and give you the option to either download or just copy the screenshot
 ![Firefox-2-Step-3.png](images%2FFirefox-2-Step-3.png)
-4. If the you choose to download it then is will get saved to your downloads folder as a png using then date and time followed by the page's title as the screenshots name.
+4. If you choose to download it then it will get saved to your downloads folder as a png using the current date and time followed by the page's title as the screenshots name
 ![Firefox-2-Step-4.png](images%2FFirefox-2-Step-4.png)
 ## Safari
 For Safari it requires a few extra steps, such as enabling the developer console.
