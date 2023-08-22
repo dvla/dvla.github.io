@@ -1,6 +1,6 @@
 ---
 author: "Tomos Griffiths"
-title: "Generating numerous FakerMaker objects in one call"
+title: "TiL: Generating numerous FakerMaker objects in one call"
 description: "Creating numerous FakerMaker objects and storing in an Array, in one call."
 draft: false
 date: 2023-08-22
