@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TiL: Generating numerous FakerMaker objects in one call</title>
+      <link>https://dvla.github.io/posts/2023-08-calling-fakermaker-to-generate-numerous-objects/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/posts/2023-08-calling-fakermaker-to-generate-numerous-objects/</guid>
+      <description>Creating numerous FakerMaker objects and storing in an Array, in one call.</description>
+    </item>
+    
     <item>
       <title>FakerMaker Chaos Mode Update</title>
       <link>https://dvla.github.io/posts/2023-06-faker-maker-chaos-update/</link>
