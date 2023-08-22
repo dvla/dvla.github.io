@@ -23,21 +23,16 @@ We can use Faker and FakerMaker to create an individual factory for an API reque
 require 'faker'
 require 'faker_maker'
 
-FakerMaker.factory :cpc_record do
+FakerMaker.factory :grocery_order do
   id(json: 'id', omit: :nil) { Faker::Number.number(digits: 14).to_s }
-  driver_id(json: 'driverId', omit: :nil) { SecureRandom.uuid }
-  active(json: 'active', omit: :nil) { nil }
-  holder_id(json: 'holderId', omit: :nil) { Faker::Number.number(digits: 14).to_s }
-  entity_identification(json: 'entityIdentification', omit: :nil) { "cpc##{id}" }
-  lgv_valid_from(json: 'lgvValidFrom', omit: :nil) { Faker::Date.between(from: 3.years.ago, to: 1.year.ago) }
-  lgv_valid_to(json: 'lgvValidTo', omit: :nil) { Faker::Date.between(from: 1.month.from_now, to: 1.year.from_now) }
-  pcv_valid_from(json: 'pcvValidFrom', omit: :nil) { Faker::Date.between(from: 3.years.ago, to: 1.year.ago) }
-  pcv_valid_to(json: 'pcvValidTo', omit: :nil) { Faker::Date.between(from: 1.month.from_now, to: 1.year.from_now) }
-  reason_created(json: 'reasonCreated', omit: :nil) { 'Initial' }
-  reason_updated(json: 'reasonUpdated', omit: :nil) { 'Revoked' }
-  valid_from(json: 'validFrom', omit: :nil) { Faker::Date.between(from: 3.years.ago, to: 1.year.ago) }
-  valid_to(json: 'validTo', omit: :nil) { Faker::Date.between(from: 1.month.from_now, to: 1.year.from_now) }
-  driving_licence_number(json: 'drivingLicenceNumber', omit: :nil) { Faker::DrivingLicence.british_driving_licence }
+  timestamp(json: 'timestamp', omit: :nil) { DateTime.now }
+  frozen_food(json: 'frozenFood', omit: :nil) { FakerMaker[:frozenFood].build }
+  cupboard_items(json: 'cupboardItems', omit: :nil) { FakerMaker[:cupboardItems].build }
+  fridge_items(json: 'fridgeItems', omit: :nil) { FakerMaker[:fridgeItems].build }
+  snack_items(json: 'snackItems', omit: :nil) { FakerMaker[:snackItems].build }
+  drink_items(json: 'drinkItems', omit: :nil) { FakerMaker[:drinkItems].build }
+  alcohol_items(json: 'alcoholItems', omit: :nil) { FakerMaker[:alcoholItems].build }
+  grocery_total(json: 'groceryTotal', omit: :nil) {Faker::Number.number(digits: 6).to_s }
 end
 ```
 But what if the test requires MORE THAN ONE instance of this fairly complex object be generated?
@@ -49,13 +44,13 @@ This can be done in 2 ways:
 
 1. Using Array.new:
 ```ruby
-multiple_records = Array.new(3) { FM[:cpc_record].build.as_json }
+multiple_records = Array.new(3) { FM[:grocery_order].build.as_json }
 ```
 This will create a new array of length 3 AND build 3 instances of the :cpc_record object. The multiple_records array can then be returned for your tests.
 
 2. Using .map:
 ```ruby
-multiple_records = 3.times.map { FM[:cpc_record].build.as_json }
+multiple_records = 3.times.map { FM[:grocery_order].build.as_json }
 ```
 This will do the exact same thing as the above. This is a more elegant way of writing the above code, and is more readable, in my opinion.
 
@@ -64,4 +59,4 @@ And that is it!
 
 ## Conclusion
 
-For complex objects, such as the example above, it can be beneficial to reproduce numerous objects to be stored in test artefacts to ensure your application or system can handle them within the response. For driver data especially, when there can be numerous instances of certain objects held, this can be especially useful to try and replicate.
+For complex objects, such as the example above, it can be beneficial to reproduce numerous objects to be stored in test artefacts to ensure your application or system can handle them within the response. This is especially useful when there can be numerous instances of certain objects held.
