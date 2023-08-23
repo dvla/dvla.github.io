@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/today-i-learned/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/today-i-learned/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The at_exit function</title>
+      <link>https://dvla.github.io/posts/2023-08-at-exit-hook/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/posts/2023-08-at-exit-hook/</guid>
+      <description>Using the at_exit function to run functions when a program exits</description>
+    </item>
+    
     <item>
       <title>TiL: Generating numerous FakerMaker objects in one call</title>
       <link>https://dvla.github.io/posts/2023-08-calling-fakermaker-to-generate-numerous-objects/</link>
