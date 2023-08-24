@@ -168,21 +168,21 @@ You set the values with = or : as delimiters:
 Run the job between 7am and 5pm.
 
 ```shell
-  dronircon generate -r "my_repo" -n "hourly-cron" --addargs "hours:7-17"
+  dronicron generate -r "my_repo" -n "hourly-cron" --addargs "hours:7-17"
 ```
 
 
 Set the schedule the run Sun-Fri every week.
 
 ```shell
- dronircon g -r "my_repo" -n "hourly-cron" -a "week_days:0-5" 
+ dronicron g -r "my_repo" -n "hourly-cron" -a "week_days:0-5" 
 ```
 
 
 Let's mix them to go really insane on it. This would run January-March, Monday-Friday, 8am-6pm, half passed every hour.
 
 ```shell
-  dronircon g -r "my_repo" -n "hourly-cron" --addargs "months:1-3 week_days:1-5" hours:8-18 minutes:30"
+  dronicron g -r "my_repo" -n "hourly-cron" --addargs "months:1-3 week_days:1-5" hours:8-18 minutes:30"
 ```
 
 The last example is silly but shows how flexible your schedule can be depending on your project's needs. There is validation written into these ranges to match what Drone allows.
