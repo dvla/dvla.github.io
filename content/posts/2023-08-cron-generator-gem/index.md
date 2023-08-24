@@ -15,7 +15,9 @@ This gem is currently only available to DVLA employees with a view to go open so
 
 ## How it started
 
-I was setting up cron jobs in Drone for the CI/CD pipeline on the Application TYR project. 
+I was setting up cron jobs in Drone for the CI/CD pipeline on the Application TYR project. We needed to stagger build times to ease pressure on
+the CI/CD infrastructure.
+
 I found the UI in Drone to be rather restrictive regarding the schedules you could set for a cron job.
 
 The Drone UI:
@@ -26,7 +28,7 @@ This is restrictive if you want to run every 15 minutes or something obscure lik
 
 ## The Drone cli
 
-Drone does have a cli that allows you adjust the cron schedule down to these granular details but the syntax isn't the most readable.
+Drone does have a cli that allows you to adjust the cron schedule down to these granular details but the syntax isn't the most readable.
 It's easy to forget (_at least for me_) what to enter where if you're not using it regularly.
 
 Example of a schedule to pass in to the cli for running 25 minutes passed the hour, between the hours of 7am and 5pm.
@@ -40,9 +42,9 @@ which * represents which part of the schedule.
 
 ## Dronicron - The Cron Generator
 
-I know, epic name! 
+I know, epic name, right!?
 
-I started to create a cron generator of my own that can use the Drone cli to do my bidding. Dronicron is the result of that crusade. 
+I decided to see if I could create a cron generator of my own that can use the Drone cli to do my bidding. Dronicron is the result of that crusade. 
 
 It has several uses which are:
 
@@ -111,9 +113,9 @@ Usage: generate
 
 ## Generate
 
-Caveat: this gem does a lot so you can see the full readme for it [HERE](https://bitbucket.tooling.dvla.gov.uk/projects/QE/repos/cron-generator/browse/README.md)
+Caveat: this gem does A LOT so you can see the full readme for it [HERE](https://bitbucket.tooling.dvla.gov.uk/projects/QE/repos/cron-generator/browse/README.md)
 
-Generate (or g for short) will allow you generate a Drone cli command that you can run yourself after exporting your Drone credentials (drone token and drone server).  
+`generate` (or `g` for short) will allow you generate a Drone cli command that you can run yourself after exporting your Drone credentials (drone token and drone server).  
 
 This command has several options that can be passed in, such as:
 
@@ -166,7 +168,7 @@ You set the values with = or : as delimiters:
 Run the job between 7am and 5pm.
 
 ```shell
-  dronircon generate -r "my_repo" -n "hourly-cron" --addargs "hours:6-16"
+  dronircon generate -r "my_repo" -n "hourly-cron" --addargs "hours:7-17"
 ```
 
 
@@ -232,14 +234,15 @@ Your schedule is:
   0 12 7-17 * * * 
 ```
 
-That's literally all there is the schedule option!
+That's literally all there is to the schedule option!
 
 ## Installation
 
-If you choose to use or check out the gem, it's currently stored in Nexus. 
+This was just a personal project but if you choose to use or check out the gem, it's currently stored in Nexus. 
 
 Add the gem `cron-generator` to your Gemfile under the nexus gem group or you can install it manually using `gem install cron-generator -s path_to_gem_group+private`
 
 ## Summary
 
-I find this cli helpful to both learn about Drone cli schedules and simplify the process of creating a new cron job.
+I enjoyed writing this gem. It has definitely broadened my understanding of cron scheduling with Drone.
+It has (for me) simplified cron scheduling. Maybe it can for you, too.
