@@ -55,4 +55,4 @@ There is a preserved status flag that can be passed in, when this is used timeou
 Prior to introducing this command into our pipelines, we had many drone build failures where, for a variety or reasons, the functional test step would hang and the 
 build would time out, our 'AWS clean up step' would not execute and this resulted requiring manual intervention to clean them up (before we exceed our capacity).
 
-Since the introduction of this command we have seen a marked reduction in our drone builds timing out
+Since the introduction of this command we have seen a marked reduction in our drone builds timing out and not clearing down our AWS stacks.
