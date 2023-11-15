@@ -16,7 +16,56 @@ We've recently publicly released a Gem called [dvla-atlas](https://github.com/dv
 
 ## Artefacts
 
+We follow Acceptance Test Driven Design (ATDD) wherever we can and use Cucumber and Gherkin as the backbone for expressing customer wants in a specification we can use to see if we've actually met that want. Oh, and we love ruby.
 
+```
+Given I am using Cucumber
+When I write a specification
+Then I will have a series of steps
+```
+
+With the specification above, we have three steps with a clear arrange-act-assert order which collectively forms one scenario -- one test. On the programmatic side, these are modelled as three separate methods and to pass information from one to the next we use instance variables.
+
+Since we're using a dynamic language we can pop these into existance at will. This is fine but has two problems:
+
+1. Using very generic variable names
+2. Typos
+
+A great advantage in having a rich and beautifully constructed automation pack is that often you can create new test scenarios just be stitching together the steps you already have. This becomes a real problem with generic variable names: calling everything `@result` will not give you great confidence that you really are asserting against what you expect.
+
+The other problem is typos. The ruby parser performs some variable hoisting: for instance variables this happens on reference. This means that all instance variables which are referenced but not assigned a value will be `nil`. There will be no `NameError` raised for undefined instance variables. This means that tests like...
+
+```ruby
+expect(@badly_spelled_instance_variable).to be_nil
+```
+
+...will always succeed if we've misspelled our instance variable's name.
+
+To mitigate this problem, we've adopted a stategy of declaring upfront those bits of state we want to keep a hold of and pass from one step to another. We built a `Struct` in which we could declare the fields we wanted and a helper method we called `artefacts`. Declaring this upgront meant we thought quite hard about what to name these things and more meaning emerged. The `Struct` helped us catch misspelt fields by throwing exceptions at runtime if we used a non-existent field.
+
+Our needs grew though. We'd bolt [FakerMaker](https://billyruffian.github.io/faker_maker/) factory built objects in here with default values. `Struct` wasn't cutting it for us so we switched to full fat classes with neat control over object construction and defaults. This was transparent to us because we always used our lovely convenice method...
+
+```ruby
+def artefacts
+  @artefacts ||= Artefacts.new
+end
+
+# ...
+
+artefacts.my_field
+```
+
+Which breaks down as soon as you start grouping functionality into modules or classes because, if you're not very careful, you can end up with two (or more) distinct instances of `@artefacts` with different scopes. Singleton-patterm instances also don't fit our needs because we need to throw away all of the artefacts after each _scenario_ and can't have them leaking state between each other.
+
+So this is problem we want to solve: 
+
+1. a place to define the state we want to share up front
+2. to have the runtime throw an error if some undefined state is referenced
+3. we want to throw away the state after each scenario
+4. we want it to be super easy to use
+5. work transparently with bare methods and those in modules and classes
+
+So we wrote Altas. It's a small library, but a great deal of thought has gone into it and make it hit each of those needs.
 
 ## Atlas
 
