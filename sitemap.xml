@@ -35,22 +35,37 @@
     <loc>https://dvla.github.io/tags/testing/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://dvla.github.io/tags/aws/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/aws/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/drone/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/drone/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/2023-11-linux-timeout-command/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/testing/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/til/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/today-i-learned/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dvla.github.io/tags/kernel/</loc>
     <lastmod>2023-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/categories/kernel/</loc>
     <lastmod>2023-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/categories/testing/</loc>
-    <lastmod>2023-08-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dvla.github.io/posts/2023-08-at-exit-hook/</loc>
-    <lastmod>2023-08-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/categories/til/</loc>
-    <lastmod>2023-08-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/today-i-learned/</loc>
     <lastmod>2023-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/faker/</loc>
@@ -118,12 +133,6 @@
   </url><url>
     <loc>https://dvla.github.io/posts/2023-05-testing-standard-out-in-ruby/</loc>
     <lastmod>2023-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/aws/</loc>
-    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/categories/aws/</loc>
-    <lastmod>2023-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/dlq/</loc>
     <lastmod>2023-03-10T00:00:00+00:00</lastmod>

@@ -31,18 +31,27 @@
     </item>
     
     <item>
-      <title>Kernel</title>
-      <link>https://dvla.github.io/categories/kernel/</link>
-      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      <title>AWS</title>
+      <link>https://dvla.github.io/categories/aws/</link>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://dvla.github.io/categories/kernel/</guid>
+      <guid>https://dvla.github.io/categories/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drone</title>
+      <link>https://dvla.github.io/categories/drone/</link>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/categories/drone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Testing</title>
       <link>https://dvla.github.io/categories/testing/</link>
-      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://dvla.github.io/categories/testing/</guid>
       <description></description>
@@ -51,9 +60,18 @@
     <item>
       <title>TIL</title>
       <link>https://dvla.github.io/categories/til/</link>
-      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://dvla.github.io/categories/til/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kernel</title>
+      <link>https://dvla.github.io/categories/kernel/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/categories/kernel/</guid>
       <description></description>
     </item>
     
@@ -108,15 +126,6 @@
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://dvla.github.io/categories/regex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AWS</title>
-      <link>https://dvla.github.io/categories/aws/</link>
-      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/categories/aws/</guid>
       <description></description>
     </item>
     
