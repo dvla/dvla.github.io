@@ -42,6 +42,10 @@ This gem is a Ruby-Cucumber formatter which sends the test output to [Report Por
 
 This gem provides a lightweight logger that adds functionality to the built in one, allowing for correlation ids to be tracked across various processes.
 
+### [dvla-atlas-ruby](https://github.com/dvla/atlas)
+
+This gem encapsulates a way of having a predefined set of properties within a test pack, built to work in tandem with the World functionality in Cucumber
+
 # Dynamics 365
 
 ### [dataverse-helper](https://github.com/dvla/dataverse-helper)
