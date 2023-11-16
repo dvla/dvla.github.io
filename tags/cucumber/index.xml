@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/cucumber/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/cucumber/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artefacts in tests and managing them with Atlas</title>
+      <link>https://dvla.github.io/posts/2023-11-artefacts-and-atlas/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/posts/2023-11-artefacts-and-atlas/</guid>
+      <description>A look at our concept of artefacts in functional test packs and how we manage them using Atlas.</description>
+    </item>
+    
     <item>
       <title>Efficient Cucumber Step Regex Matching</title>
       <link>https://dvla.github.io/posts/2023-06-efficient-cucumber-step-regex-matching/</link>
