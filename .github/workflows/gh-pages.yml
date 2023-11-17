@@ -26,7 +26,9 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "latest"
+          # should use latest but there is an issue rendering <span> in the index
+          # https://github.com/dvla/dvla.github.io/issues/22
+          hugo-version: "0.119.0"
           # extended: true
 
       - name: Build
@@ -41,5 +43,4 @@ jobs:
           publish_dir: ./public
           allow_empty_commit: true
 #           force_orphan: true
-          
-          
+
