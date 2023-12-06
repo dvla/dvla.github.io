@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dvla.github.io/tags/aws/</loc>
+    <lastmod>2023-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/aws/</loc>
+    <lastmod>2023-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/</loc>
+    <lastmod>2023-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/</loc>
+    <lastmod>2023-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/</loc>
+    <lastmod>2023-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/spring/</loc>
+    <lastmod>2023-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/spring/</loc>
+    <lastmod>2023-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/2023-12-spring-security-aws-kms/</loc>
+    <lastmod>2023-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/</loc>
+    <lastmod>2023-12-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dvla.github.io/posts/2023-11-artefacts-and-atlas/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/categories/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dvla.github.io/tags/cucumber/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/gem/</loc>
@@ -20,26 +41,14 @@
     <loc>https://dvla.github.io/categories/gem/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/posts/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dvla.github.io/tags/ruby/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/categories/ruby/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/</loc>
-    <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dvla.github.io/tags/testing/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/aws/</loc>
-    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/categories/aws/</loc>
-    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/drone/</loc>
     <lastmod>2023-10-14T00:00:00+00:00</lastmod>
