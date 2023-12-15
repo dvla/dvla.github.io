@@ -1,7 +1,7 @@
 ---
 author: "George Bell"
 title: "TiL: Save CPU cycles by logging blocks"
-description: "A look at passing blocks into."
+description: "A look at passing blocks into loggers in Ruby."
 draft: false
 date: 2023-12-15
 tags: ["Ruby", "Logging"]
