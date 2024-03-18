@@ -11,7 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How AWS Step Functions helped streamline the DVLA&#39;s application process</title>
+      <link>https://dvla.github.io/posts/2024-03-streamline-application-processing/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/posts/2024-03-streamline-application-processing/</guid>
+      <description>Introduction Harnessing the power of AWS Step Functions, the Driver and Vehicle Licensing Agency (DVLA) embarks on a transformative journey to streamline its operations. With over 50 million registered drivers and 40 million vehicles, the DVLA navigates various applications, from driving licences to vehicle registrations. This blog unveils the approach adopted by DVLA to transform its application process, ensuring flexibility and customisation for each application type.
+Background As the custodian of millions of driver and vehicle records, DVLA grapples with the complexity of managing diverse applications.</description>
+    </item>
+    
     <item>
       <title>TiL: Save CPU cycles by logging blocks</title>
       <link>https://dvla.github.io/posts/2023-12-logging-blocks/</link>
