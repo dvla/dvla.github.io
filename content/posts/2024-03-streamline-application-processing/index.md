@@ -29,7 +29,7 @@ Building upon existing expertise with AWS infrastructure, DVLA leveraged AWS Ste
 ## Introducing the application process engine aka APE
 This is where the application process engine was born, a dynamic workflow engine designed to navigate applications through various stages. APE embodies versatility, executing generic business functionalities common to most applications.
 
-{{<figure src="images/application-process-engine.png" caption="Application process engine"  class="center-caption">}}
+{{<figure src="images/application-process-engine.png" caption="Application process engine">}}
 
 The aforementioned diagram offers a birdseye view of the orchestration of the application across its diverse phases. The workflows dedicated to driver applications are compartmentalised and self-contained, executing only the driving licence application-specific steps essential for completing each phase.
 
@@ -39,7 +39,7 @@ In our approach to handling the workflow for driving licences and vehicle-relate
 However, the preparatory steps involved in photo submission and the subsequent review by a clerk hold no relevance in the context of vehicle applications or instances where individuals seek to update their address information on their driving licence or vehicle - wherein no photo submission is required.
 
 
-{{<figure src="images/ape-and-dape.svg" caption="10,000m view of the integrated driver application workflows" class="center-caption">}}
+{{<figure src="images/ape-and-dape.svg" caption="10,000m view of the integrated driver application workflows">}}
 
 ## Harnessing AWS Step Functions direct integrations
 Within the extensive repertoire of direct integrations offered by AWS Step Functions, lies a notable inclusion: AWS Step Functions themselves (yes, start a workflow within a workflow). Leveraging this optimized integration, we seamlessly triggered sub-workflows tailored to the specific phases of driver or vehicle applications directly from our application process engine. This innovative approach draws inspiration from the [ServerlessLand](https://serverlessland.com/workflows/workflow-within-a-workflow-cdk) website, underscoring our commitment to efficiency and best practices in workflow architecture.
