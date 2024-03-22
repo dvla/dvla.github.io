@@ -197,8 +197,7 @@ The solution above is straightforward to script. However, it presents an issue a
 ### Automating the Solution
 To tackle this challenge, we formulated an automated solution. Essentially, it entailed setting up a Lambda function triggered by events added to the dead letter queue. The Lambda then retrieves and handles the events from the dead letter queue. Utilising the AWS SDK, the Lambda queries the DynamoDB stream,  disassembles the event, and reinstates it in the dead letter queue in the parsed format.
 
-With our queue retention period set at 14 days, we've allowed sufficient time for resolution. Additionally, we've implemented event parsing to swiftly visualise problematic records.
-
+With our queue retention period configured to 14 days, we've allotted ample time for resolution. Consequently, we can promptly visualise problematic records within the dead letter queue by polling for messages. This streamlined method enables our support team to swiftly pinpoint issues in the data and promptly tackle them, thereby reducing the steps needed to resolve them.
 
 ## Summary
 In this comprehensive exploration of DVLA's application processing and error handling strategies, several key insights have emerged. The implementation of EventBridge Pipes has made it much simpler to manage application updates to the centralised platform for tracking and managing driver and vehicle-related information.
