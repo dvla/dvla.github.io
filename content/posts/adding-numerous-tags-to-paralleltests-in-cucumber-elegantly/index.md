@@ -28,13 +28,9 @@ By using a set of `included` and `excluded` tags, we can pass in the tags we wan
 
     # puts the array of excluded_tags into a string to use in the tags argument below
     excluded_tags = args.excluded_tags.map { |tag| "not #{tag}" }.join(' and ') # output will be "not @excluded_tag1 and not @excluded_tag2" by default
-    included_tags = if args.tags.length > 1
-                      args.tags.map(&:to_s).join(' and ') # joins the tags with 'and' if there are more than 1 in the array
-                    else
-                      args.tags.empty? ? nil : args.tags # guards that if the array is empty then return nil, else return the single tag passed in
-                    end
+    included_tags = args.tags
 
-    tags = included_tags.nil? ? excluded_tags : included_tags
+    tags = included_tags.concat(excluded_tags).join(' and ') # joins the two arguments together as a string, which will guard against empty arrays
 
     parallel.run(['-n', args.threads, '--type', 'cucumber', '--group-by', 'scenarios', '--serialize-stdout',
                   '--', '-f', cucumber_formatter, '--out', '/dev/null', '-f', 'progress',
