@@ -31,7 +31,7 @@ By using a set of `included` and `excluded` tags, we can pass in the tags we wan
     included_tags = if args.tags.length > 1
                       args.tags.map(&:to_s).join(' and ') # joins the tags with 'and' if there are more than 1 in the array
                     else
-                      args.tags.nil? ? nil : args.tags # guards that if the array is empty then return nil, else return the single tag passed in
+                      args.tags.empty? ? nil : args.tags # guards that if the array is empty then return nil, else return the single tag passed in
                     end
 
     tags = included_tags.nil? ? excluded_tags : included_tags
