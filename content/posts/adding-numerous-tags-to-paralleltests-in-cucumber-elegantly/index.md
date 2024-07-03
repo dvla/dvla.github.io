@@ -25,7 +25,6 @@ By using a set of `included` and `excluded` tags, we can pass in the tags we wan
   # To exclude more tags in the running of the tests, add the argument to the 'excluded_tags' array below
   task :run, %i[threads feature_path tags excluded_tags] do |_t, args|
     args.with_defaults(threads: '1', feature_path: 'features', tags: '[]', excluded_tags: "['@exclude']")
-    binding.irb
     # puts the array of excluded_tags into a string to use in the tags argument below
     excluded_tags = JSON.parse(args.excluded_tags).map { |tag| "not #{tag}" }
     included_tags = JSON.parse(args.tags)
