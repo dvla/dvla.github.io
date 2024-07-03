@@ -23,14 +23,18 @@ By using a set of `included` and `excluded` tags, we can pass in the tags we wan
 
 ```ruby
   # To exclude more tags in the running of the tests, add the argument to the 'excluded_tags' array below
-  task :run, %i[threads feature_path tags] do |_t, args|
-     args.with_defaults(threads: '1', feature_path: 'features', tags: [], excluded_tags: ['@excluded_tag1', '@excluded_tag2'])
-
+  task :run, %i[threads feature_path tags excluded_tags] do |_t, args|
+    args.with_defaults(threads: '1', feature_path: 'features', tags: '[]', excluded_tags: "['@exclude']")
+    binding.irb
     # puts the array of excluded_tags into a string to use in the tags argument below
-    excluded_tags = args.excluded_tags.map { |tag| "not #{tag}" }.join(' and ') # output will be "not @excluded_tag1 and not @excluded_tag2" by default
-    included_tags = args.tags
+    excluded_tags = JSON.parse(args.excluded_tags).map { |tag| "not #{tag}" }
+    included_tags = JSON.parse(args.tags)
 
-    tags = included_tags.concat(excluded_tags).join(' and ') # joins the two arguments together as a string, which will guard against empty arrays
+    tags = included_tags.concat(excluded_tags).join(' and ')
+
+    # tags = args.tag.nil? ? 'not @problematic and not @retention' : args.tag
+
+    LOG.info { "Threads: '#{args.threads}' | Feature path: '#{args.feature_path}' | Tags: '#{tags}' | Formatter: '#{cucumber_formatter}'" }
 
     parallel.run(['-n', args.threads, '--type', 'cucumber', '--group-by', 'scenarios', '--serialize-stdout',
                   '--', '-f', cucumber_formatter, '--out', '/dev/null', '-f', 'progress',
@@ -39,6 +43,14 @@ By using a set of `included` and `excluded` tags, we can pass in the tags we wan
 ```
 
 The `tags` can then be passed in to the `parallel.run` command we are all familiar with. This ensures that we are running the tests that have been tagged appropriately but also excludes any tags that should not be added to this command.
+
+In your `drone.yml` file, be sure to use the escape character (\) correctly in order to pass in the tags correctly, i.e.
+
+```ruby
+  bundle exec rake "functional_tests:run[1, features/tests, [\"@included_tag\"], [\"@excluded_tag\"]]" # 1 included tag, 1 excluded tag
+  OR
+  bundle exec rake "functional_tests:run[2, features/tests, [], [\"@excluded_tag1\" \,\ \"@excluded_tag2\"]]" # 0 included tags, 2 excluded tags
+```
 
 ## Use case
 
