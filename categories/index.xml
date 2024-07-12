@@ -11,7 +11,52 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cucumber</title>
+      <link>https://dvla.github.io/categories/cucumber/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/categories/cucumber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ParallelTests</title>
+      <link>https://dvla.github.io/categories/paralleltests/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/categories/paralleltests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://dvla.github.io/categories/ruby/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/categories/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://dvla.github.io/categories/testing/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/categories/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TIL</title>
+      <link>https://dvla.github.io/categories/til/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/categories/til/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>AWS</title>
       <link>https://dvla.github.io/categories/aws/</link>
@@ -27,15 +72,6 @@
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://dvla.github.io/categories/aws-step-functions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ruby</title>
-      <link>https://dvla.github.io/categories/ruby/</link>
-      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/categories/ruby/</guid>
       <description></description>
     </item>
     
@@ -63,24 +99,6 @@
       <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>https://dvla.github.io/categories/drone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Testing</title>
-      <link>https://dvla.github.io/categories/testing/</link>
-      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/categories/testing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TIL</title>
-      <link>https://dvla.github.io/categories/til/</link>
-      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/categories/til/</guid>
       <description></description>
     </item>
     
@@ -126,15 +144,6 @@
       <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>https://dvla.github.io/categories/gems/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cucumber</title>
-      <link>https://dvla.github.io/categories/cucumber/</link>
-      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/categories/cucumber/</guid>
       <description></description>
     </item>
     

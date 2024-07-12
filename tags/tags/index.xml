@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Cucumber on DVLA Engineering</title>
-    <link>https://dvla.github.io/categories/cucumber/</link>
-    <description>Recent content in Cucumber on DVLA Engineering</description>
+    <title>Tags on DVLA Engineering</title>
+    <link>https://dvla.github.io/tags/tags/</link>
+    <description>Recent content in Tags on DVLA Engineering</description>
     <image>
       <title>DVLA Engineering</title>
       <url>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/categories/cucumber/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>TiL: Adding numerous tags to ParallelTests in cucumber elegantly </title>
       <link>https://dvla.github.io/posts/adding-numerous-tags-to-paralleltests-in-cucumber-elegantly/</link>
@@ -19,15 +19,6 @@
       
       <guid>https://dvla.github.io/posts/adding-numerous-tags-to-paralleltests-in-cucumber-elegantly/</guid>
       <description>Creating numerous tags to be included/excluded for ParallelTests in cucumber elegantly</description>
-    </item>
-    
-    <item>
-      <title>Efficient Cucumber Step Regex Matching</title>
-      <link>https://dvla.github.io/posts/2023-06-efficient-cucumber-step-regex-matching/</link>
-      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/posts/2023-06-efficient-cucumber-step-regex-matching/</guid>
-      <description>How to utilise powerful regex to write better cucumber step definitions</description>
     </item>
     
   </channel>
