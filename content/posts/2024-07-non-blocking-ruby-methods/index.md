@@ -96,7 +96,7 @@ Finished!
  	Done with request Hello world!
 ```
 
-The main thread continues to run while the network requests are in progress. When the requests complete, the fibers are resumed and the results are printed to the console. All the fibers run to completion before the program exits. Nice
+The main thread continues to run while the network requests are in progress. When the requests complete, the fibers are resumed and the results are printed to the console. All the fibers run to completion before the program exits. Nice.
 
 ## Bonus section
 Roda is pretty speedy framework but I'm running here with the basic Rackup server. I can queue about 500 Fibers before saturating the server and it starts rejecting connections. The Falcon web server is written by Samuel Williams, the same author as the Async gem, and is designed to work well with Async. It's a great choice for running high-performance Ruby web servers, so let's try that.
