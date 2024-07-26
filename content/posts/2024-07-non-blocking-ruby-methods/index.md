@@ -29,13 +29,14 @@ Here's a simple example of how to use the `async` fiber scheduler to run a non-b
 
 ```ruby
 module API
-  Fiber.set_scheduler(Async::Scheduler.new)
+  scheduler = Async::Scheduler.new
+  Fiber.set_scheduler(scheduler)
 
-  def self.perform
+  def self.perform(iteration)
     Fiber.schedule do
-      puts 'Making request...'
+      puts "Making request...#{iteration}"
       req = HTTParty.get('http://localhost:9292')
-      puts "\tDone with request #{req.body[0..30]}"
+      puts " \tDone with request #{iteration}: #{req.body[0..30]}"
     end
   end
 end
@@ -53,8 +54,8 @@ Let's put it to use:
   require_relative 'api'
 
   puts 'Starting up...'
-  5.times do
-    API.perform
+  5.times do |i|
+    API.perform(i)
   end
   puts 'Finished!'
 ```
@@ -83,17 +84,17 @@ When I run the the client code, I see the following output:
 
 ```shell
 Starting up...
-Making request...
-Making request...
-Making request...
-Making request...
-Making request...
+Making request...0
+Making request...1
+Making request...2
+Making request...3
+Making request...4
 Finished!
- 	Done with request Hello world!
- 	Done with request Hello world!
- 	Done with request Hello world!
- 	Done with request Hello world!
- 	Done with request Hello world!
+ 	Done with request 3: Hello world!
+ 	Done with request 4: Hello world!
+ 	Done with request 1: Hello world!
+ 	Done with request 2: Hello world!
+ 	Done with request 0: Hello world!
 ```
 
 The main thread continues to run while the network requests are in progress. When the requests complete, the fibers are resumed and the results are printed to the console. All the fibers run to completion before the program exits. Nice.
