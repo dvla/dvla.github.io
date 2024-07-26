@@ -10,7 +10,7 @@ ShowToc: true
 TocOpen: true
 ---
 
-There are lot of options for concurrency in Ruby, from spawning child processes to using threads, ractors and with Async. Each have their merits and drawbacks, but one of the simplest and most effective ways to run code concurrently is to use Fibers.
+There are lot of options for concurrency in Ruby, from spawning child processes to using threads, ractors and Async. Each have their merits and drawbacks, but one of the simplest and most effective ways to run code concurrently is to use Fibers.
 
 In my use-case, I want to do some work and, in the background, perform some network requests. Network I/O is blocking, so I want to make sure I'm doing productive work on the main thread while I wait for the network requests to complete.
 
