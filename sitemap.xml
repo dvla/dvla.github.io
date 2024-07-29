@@ -2,16 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dvla.github.io/tags/async/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dvla.github.io/categories/</loc>
-    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/fibers/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/2024-07-non-blocking-ruby-methods/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/ruby/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/ruby/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/til/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/today-i-learned/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/cucumber/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/categories/cucumber/</loc>
-    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/paralleltests/</loc>
@@ -20,19 +47,7 @@
     <loc>https://dvla.github.io/categories/paralleltests/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/posts/</loc>
-    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/ruby/</loc>
-    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/categories/ruby/</loc>
-    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dvla.github.io/tags/tags/</loc>
-    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/testing/</loc>
@@ -41,13 +56,7 @@
     <loc>https://dvla.github.io/categories/testing/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/categories/til/</loc>
-    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/posts/adding-numerous-tags-to-paralleltests-in-cucumber-elegantly/</loc>
-    <lastmod>2024-07-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/today-i-learned/</loc>
+    <loc>https://dvla.github.io/posts/2024-07-adding-numerous-tags-to-paralleltests-in-cucumber-elegantly/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/aws/</loc>

@@ -11,13 +11,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/categories/til/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Non-Blocking Ruby Methods</title>
+      <link>https://dvla.github.io/posts/2024-07-non-blocking-ruby-methods/</link>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/posts/2024-07-non-blocking-ruby-methods/</guid>
+      <description>Make light work of asynchronous Ruby</description>
+    </item>
+    
     <item>
       <title>TiL: Adding numerous tags to ParallelTests in cucumber elegantly </title>
-      <link>https://dvla.github.io/posts/adding-numerous-tags-to-paralleltests-in-cucumber-elegantly/</link>
+      <link>https://dvla.github.io/posts/2024-07-adding-numerous-tags-to-paralleltests-in-cucumber-elegantly/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://dvla.github.io/posts/adding-numerous-tags-to-paralleltests-in-cucumber-elegantly/</guid>
+      <guid>https://dvla.github.io/posts/2024-07-adding-numerous-tags-to-paralleltests-in-cucumber-elegantly/</guid>
       <description>Creating numerous tags to be included/excluded for ParallelTests in cucumber elegantly</description>
     </item>
     
