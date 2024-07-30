@@ -1,6 +1,6 @@
 ---
 author: "George Bell"
-title: "TiL: Doing multiple replacements with gsub"
+title: "TiL: Doing multiple replacements with gsub in Ruby"
 description: "How to make multiple changes to a string with only one gsub call"
 draft: false
 date: 2024-07-30
