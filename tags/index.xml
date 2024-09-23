@@ -11,31 +11,49 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gsub</title>
-      <link>https://dvla.github.io/tags/gsub/</link>
-      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <title>exec</title>
+      <link>https://dvla.github.io/tags/exec/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://dvla.github.io/tags/gsub/</guid>
+      <guid>https://dvla.github.io/tags/exec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ruby</title>
       <link>https://dvla.github.io/tags/ruby/</link>
-      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>https://dvla.github.io/tags/ruby/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>system</title>
+      <link>https://dvla.github.io/tags/system/</link>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Today I Learned</title>
       <link>https://dvla.github.io/tags/today-i-learned/</link>
-      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>https://dvla.github.io/tags/today-i-learned/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gsub</title>
+      <link>https://dvla.github.io/tags/gsub/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/tags/gsub/</guid>
       <description></description>
     </item>
     
