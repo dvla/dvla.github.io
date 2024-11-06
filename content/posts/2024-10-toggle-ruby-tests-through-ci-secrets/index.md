@@ -3,7 +3,7 @@ author: "Leighton Taylor"
 title: "Toggling Ruby scenarios in Drone using secrets"
 description: "How to toggle Ruby scenarios to be run in a CI pipeline, from secrets to Cucumber tags"
 draft: false
-date: 2024-10-31
+date: 2024-11-06
 tags: ["Ruby", "Drone", "CI Pipeline", "Cucumber", "Testing", "Today I Learned"]
 categories: ["TIL", "Ruby", "Drone", "Testing", "Cucumber"]
 ShowToc: true
@@ -16,20 +16,20 @@ TocOpen: true
 ---
 ## Scenario
 
-In a relatively niché scenario, we have a service that is being temporarily being blocked while new code is being put into place.
+In a relatively niche scenario, we have a service that is being temporarily being blocked while new code is being put into place.
 
-While we still want to keep our current scenarios for service X to use them again when the serive is unblocked, if they are left to run in our pipeline, every build will fail until it is unblocked again.
+While we still want to keep our current scenarios for service X to use them again when the service is unblocked, if they are left to run in our pipeline, every build will fail until it is unblocked again.
 
 ---
 ### How do we get around this?
 
 Well to start off with, because we're good testers, we need to write new scenarios that would check to see that the expected errors will be returned once the block put in, providing us with confidence that it'll be working correctly.
 
-These sad path tests should only run when the block is in place otherwise they'll only fail too.
+These sad path tests should only run when the block is in place otherwise, they'll only fail too.
 
 ### The Config
 
-We can use CI pipeline secrets to our advantage, in our pipeline config file we'll add a environment variable in our functional test step that we can overwrite when our block goes into place.
+We can use CI pipeline secrets to our advantage, in our pipeline config file we'll add an environment variable in our functional test step that we can overwrite when our block goes into place.
 
 ```yaml
 RUN_SERVICE_X:
@@ -39,7 +39,7 @@ RUN_SERVICE_X:
 Best practice would be to set this variable with a default value.
 That can be done within our config settings.
 
-```yml
+```yaml
 RUN_SERVICE_X: <%= ENV['RUN_SERVICE_X'] || :yes >
 ```
 
@@ -78,7 +78,7 @@ As you can see, we've used 2 different tags for the blocked service scenario and
 
 ### The Tests
 
-We need to make it clear which test scenarios are going to be blocked and which tests will be our blocked sad path tests so we add our custom Cucumber tags to our feature files.
+We need to make it clear which test scenarios are going to be blocked, and which tests will be our blocked sad path tests, so we add our custom Cucumber tags to our feature files.
 
 ```gherkin
 @SERVICE_X
@@ -93,7 +93,7 @@ Given a customer logs into the system
 When the customer applies for service x
 Then the system produces the following error:
 | status | code | detail           |
-| 400    | 123  | Service X errror | 
+| 400    | 123  | Service X error  | 
 ````
 
 ### And Finally
@@ -111,7 +111,7 @@ Then all you have to do is delete the secret once the service is unblocked, the 
 
 If a service is temporarily blocked, we can skip our tests for that service and run tests to ensure the block is returning the correct error/s.
 
-Setting CI pipeline secret that's linked to a environment variable in our CI pipeline config file and in a config file, best set to a default of truthy or true value, which is set to a boolean value by the env.rb before each run. 
+Setting CI pipeline secret that's linked to an environment variable in our CI pipeline config file and in a config file, best set to a default of truthy or true value, which is set to a boolean value by the env.rb before each run. 
 
 Using that boolean, we decide whether to skip the blocked service scenarios and run our sad path tests using before hooks linked to Cucumber tags for blocked scenarios and sad path scenarios.
 
