@@ -51,3 +51,9 @@ This gem encapsulates a way of having a predefined set of properties within a te
 ### [dataverse-helper](https://github.com/dvla/dataverse-helper)
 
 This gem helps you integrate with Microsoft Dynamics using Microsoft Dataverse Web API. You can create, retrieve, delete or update a record without worrying about authentications as it's automatically managed behind the scenes.
+
+# JavaScript
+
+### [postman-paf-js](https://github.com/dvla/postman-paf-js)
+
+Open Source library to apply Royal Mail Rules & Exceptions to PAF (Postcode Address File) addresses when converting to a printable format.
