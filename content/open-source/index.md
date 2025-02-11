@@ -46,6 +46,10 @@ This gem provides a lightweight logger that adds functionality to the built in o
 
 This gem encapsulates a way of having a predefined set of properties within a test pack, built to work in tandem with the World functionality in Cucumber
 
+### [postman-paf](https://github.com/dvla/postman-paf)
+
+Open Source library to apply Royal Mail Rules & Exceptions to PAF (Postcode Address File) addresses when converting to a printable format.
+
 # Dynamics 365
 
 ### [dataverse-helper](https://github.com/dvla/dataverse-helper)
