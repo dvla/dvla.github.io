@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript</title>
+      <link>https://dvla.github.io/categories/javascript/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Cucumber</title>
       <link>https://dvla.github.io/categories/cucumber/</link>

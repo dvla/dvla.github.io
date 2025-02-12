@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postman-Paf-js</title>
+      <link>https://dvla.github.io/posts/2025-02-postman-paf/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/posts/2025-02-postman-paf/</guid>
+      <description>Open Source library to apply Royal Mail Rules &amp;amp; Exceptions to PAF (Postcode Address File) addresses when converting to a printable format.</description>
+    </item>
+    
     <item>
       <title>Toggling Ruby scenarios in Drone using secrets</title>
       <link>https://dvla.github.io/posts/2024-10-toggle-ruby-tests-through-ci-secrets/</link>

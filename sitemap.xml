@@ -3,7 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dvla.github.io/categories/</loc>
-    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/</loc>
+    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/javascript/</loc>
+    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/javascript/</loc>
+    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/2025-02-postman-paf/</loc>
+    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/</loc>
+    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/</loc>
+    <lastmod>2025-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/ci-pipeline/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
@@ -20,19 +38,10 @@
     <loc>https://dvla.github.io/categories/drone/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/</loc>
-    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/posts/</loc>
-    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dvla.github.io/tags/ruby/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/categories/ruby/</loc>
-    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/testing/</loc>
