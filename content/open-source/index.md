@@ -50,6 +50,10 @@ This gem encapsulates a way of having a predefined set of properties within a te
 
 Open Source library to apply Royal Mail Rules & Exceptions to PAF (Postcode Address File) addresses when converting to a printable format.
 
+### [dvla-browser-drivers](https://github.com/dvla/dvla-browser-drivers)
+
+This gem has pre-configured browser drivers that you can use out-of-the-box for the development of your application.
+
 # Dynamics 365
 
 ### [dataverse-helper](https://github.com/dvla/dataverse-helper)
