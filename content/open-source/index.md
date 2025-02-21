@@ -52,7 +52,7 @@ Open Source library to apply Royal Mail Rules & Exceptions to PAF (Postcode Addr
 
 ### [dvla-browser-drivers](https://github.com/dvla/dvla-browser-drivers)
 
-This gem has pre-configured browser drivers that you can use out-of-the-box for the development of your application.
+This gem has pre-configured browser drivers that you can use out-of-the-box for the development of your automated test suite or application.
 
 # Dynamics 365
 
