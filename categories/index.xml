@@ -11,7 +11,43 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>max_by</title>
+      <link>https://dvla.github.io/categories/max_by/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/categories/max_by/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://dvla.github.io/categories/ruby/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/categories/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://dvla.github.io/categories/testing/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/categories/testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TIL</title>
+      <link>https://dvla.github.io/categories/til/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/categories/til/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>JavaScript</title>
       <link>https://dvla.github.io/categories/javascript/</link>
@@ -36,33 +72,6 @@
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
       
       <guid>https://dvla.github.io/categories/drone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ruby</title>
-      <link>https://dvla.github.io/categories/ruby/</link>
-      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/categories/ruby/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Testing</title>
-      <link>https://dvla.github.io/categories/testing/</link>
-      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/categories/testing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TIL</title>
-      <link>https://dvla.github.io/categories/til/</link>
-      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/categories/til/</guid>
       <description></description>
     </item>
     

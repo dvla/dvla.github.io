@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/today-i-learned/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/today-i-learned/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TiL: Using the max_by method in Ruby</title>
+      <link>https://dvla.github.io/posts/2024-12-using-max-by-in-ruby/</link>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/posts/2024-12-using-max-by-in-ruby/</guid>
+      <description>Using max_by to filter out data based on the highest value for a particular field</description>
+    </item>
+    
     <item>
       <title>Toggling Ruby scenarios in Drone using secrets</title>
       <link>https://dvla.github.io/posts/2024-10-toggle-ruby-tests-through-ci-secrets/</link>
