@@ -10,6 +10,8 @@ ShowToc: true
 TocOpen: true
 ---
 
+*Note well* Please ensure you consider and adhere to any policies and restrictions your organisation places on the use of data with AI and the selection of AI models.
+
 I want to be able to ask an generative AI some questions while giving it the context from which I'd like it to use it's smarts to derive an answer. This is Retrieval-Augmented Generation (RAG).
 
 Being a Ruby engineer, I'm going to pick up my shiny red hammer to attack this problem.
