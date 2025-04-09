@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Experimenting with Retrieval Augmented Generation (RAG) with LLMs</title>
+      <link>https://dvla.github.io/posts/2025-04-04-experimenting-with-rag-llm/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://dvla.github.io/posts/2025-04-04-experimenting-with-rag-llm/</guid>
+      <description>Giving an LLM some external context with Ruby.</description>
+    </item>
+    
     <item>
       <title>TiL: Using the max_by method in Ruby</title>
       <link>https://dvla.github.io/posts/2024-12-using-max-by-in-ruby/</link>

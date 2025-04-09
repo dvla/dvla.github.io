@@ -3,10 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dvla.github.io/categories/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/2025-04-04-experimenting-with-rag-llm/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/ruby-ai/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/ruby-ai/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/max_by/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
@@ -14,16 +29,10 @@
     <loc>https://dvla.github.io/categories/max_by/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/posts/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dvla.github.io/tags/ruby/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/categories/ruby/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/testing/</loc>
