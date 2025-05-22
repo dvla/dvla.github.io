@@ -54,6 +54,10 @@ Open Source library to apply Royal Mail Rules & Exceptions to PAF (Postcode Addr
 
 This gem has pre-configured browser drivers that you can use out-of-the-box for the development of your automated test suite or application.
 
+### [dvla-kaping](https://github.com/dvla/kaping)
+
+Ka-Ping! An Idiomatic ruby way to construct ElasticSearch queries.
+
 # Dynamics 365
 
 ### [dataverse-helper](https://github.com/dvla/dataverse-helper)
