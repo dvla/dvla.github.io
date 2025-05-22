@@ -12,7 +12,6 @@ TocOpen: true
 
 ***You can only stretch elastic so far before it goes KA-PING!***
 
-
 The starting point for creating a new DVLA gem to integrate with AWS OpenSearch and ElasticSearch was the amount of documentation 
 there is surrounding the technology. There is a lot for a reason, it's a very powerful and useful tool,
 but the flip side is the learning curve involved in understanding all the features and query structure. 
@@ -21,7 +20,7 @@ Our use case is we wanted squads to have a simple way to retrieve specific drive
 tests without having to fully understand Elasticsearch and all its capabilities.
 
 A lot of our tests require very specific data requirements which can result in complex search queries with multiple parameters and 
-search terms to consider, so the code to write this query can ballon into a very complex nested JSON.
+search terms to consider. The code to write these complex queries can ballon into a very deep nested JSON.
 
 Out test platform architecture is based on Ruby, so we wanted a Ruby way to write large queries easily, which lead to the 
 development of a query builder using the dot notation concept to chain the queries terms together.
@@ -30,12 +29,19 @@ We didn't need every aspect of the full OpenSearch capabilities to begin with, s
 which we commonly use. With this in mind there is further development work to cover more of the OpensSearch functions down the line.
 
 
-## What a multiple search term query looks like with JSON notation
+## The Ka-Ping Ruby Gem 
 
+The Ka-Ping Ruby Gem enables the user to build complex ElasticSearch DSL Queries for searching and filtering large data sets without 
+having to worry about formatting the JSON payloads.
+
+Using intuitive search terms and operations, it's easier to construct human-readable search definitions without needing a deep 
+understanding of the Query DSL syntax.
+
+### Complex search term query looks like with JSON notation
 Probably the best way to demonstrate Kaping is to look at the traditional query construct, then the Kaping way.
 
 
-## Traditional JSON query
+#### Traditional JSON query
 ```ruby
 
 def multi
@@ -69,10 +75,10 @@ def multi
   }
 end
 ```
-In the above example the nested JSON can become quite a handful
+In the above example the nested JSON can become quite a handful, Kaping solves this by making the code more human readable.
 
 
-## What the query looks likes with Kaping
+#### What the query looks likes with Kaping
 ```ruby
 def multi
   date = DateTime.now.strftime('%Y-%m-%d')  
@@ -85,7 +91,7 @@ def multi
     between('fruit.pickedDate', '2025-08-21', date.to_s).
     between('fruit.inspection.taken', '2025-08-21', date.to_s).
     between('fruit.importDate', '2025-08-21', date.to_s).
-    match('fruit.category', 'Tropical').
+    match('fruit.category', 'Tropical')
   q.must_not.
     exists('field', 'fruitEndDate').
     exists('field', 'fruit.import.USATariffs').
@@ -108,9 +114,9 @@ Let's break that down further
 my_query = DVLA::Kaping::Query.new('bool')
 ```
 This is the starting point for creating a query definition by calling an instance of the Kaping:: Query 
-class and assigning it to 'my_query'. 
+class and assigning it to a variable, e.g. 'my_query'
 
-We set then set the type of query we want. The common ones are 'bool' or 'match' 
+We then set the type of query we want. The common ones are 'bool' or 'match' 
 depending on your search context.
 
 If don't require a complex query you could do a very basic match query:
@@ -119,7 +125,7 @@ If don't require a complex query you could do a very basic match query:
 my_query = DVLA::Kaping::Query.new('match_phrase', foo: 'Bar')
 my_query.to_json
 ```
-this is equivalent to writing this JSON query
+this is equivalent to writing this query in JSON
 
 ```Ruby
 my_query = { "query":
@@ -129,12 +135,10 @@ my_query = { "query":
            }
 ```
 
-With Kaping the JSON formation is taken care off with the common ruby call .to_json
+With Kaping the JSON formation and formatting is taken care of with the common Ruby call .to_json
 
-In the large example at the top, each line is a new search term, there are various different terms you can use depending on what 
-functionality you require. 
-
-> DVLA::Kaping::Query.new( **'match_phrase'**, foo: 'Bar')
+In the large example above, each line is a new search term definition. There are various different terms you can use depending on what 
+functionality you require. You can group these terms in positive or negative boolean operations.
 
 #### Current sub list of terms are:
 
@@ -188,9 +192,9 @@ embrace the feedback to further enhance the Gem and increase it's scope.
 
 ## Further Development
 
-As mentioned before, not all functionality of OpenSearch has been implemented, but any requests to expand will be taken into consideration.
+As mentioned before, not all the functionality of OpenSearch has been implemented, but any requests to expand will be taken into consideration.
 The code base for Kaping is small, the query builder is 40 lines of code. The separation of terms into their own module makes it easy to
-add additional query terms as required
+add additional query terms as required.
 
 
 
