@@ -76,7 +76,7 @@ account_num = ENV.fetch('AWS_ACCOUNT_NUMBER', nil)
 stage = ENV.fetch('SERVERLESS_STAGE', nil)
 service_name = ENV.fetch('SERVICE_NAME', nil)
 
-enquirier_username = "arn:aws:iam::#{account_num}:role/#{stage}-#{service_name}-retrieve-role"
+enquirier_username = "arn:aws:iam::#{account_num}:role/#{stage}-#{service_name}-<ROLE>"
 
 LOG.info { 'Checking if retrieve enquiry user exists'.cyan }
 enquirer_exist = system "atlas dbusers describe #{enquirier_username} --authDB \\$external -o json";
