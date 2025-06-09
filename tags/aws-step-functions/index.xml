@@ -9,18 +9,19 @@
       <url>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/aws-step-functions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dvla.github.io/tags/aws-step-functions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How AWS Step Functions helped streamline the DVLA&#39;s application process</title>
       <link>https://dvla.github.io/posts/2024-03-streamline-application-processing/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-03-streamline-application-processing/</guid>
-      <description>Introduction Harnessing the power of AWS Step Functions, the Driver and Vehicle Licensing Agency (DVLA) embarks on a transformative journey to streamline its operations. With over 50 million registered drivers and 40 million vehicles, the DVLA navigates various applications, from driving licences to vehicle registrations. This blog unveils the approach adopted by DVLA to transform its application process, ensuring flexibility and customisation for each application type.
-Background As the custodian of millions of driver and vehicle records, DVLA grapples with the complexity of managing diverse applications.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Harnessing the power of AWS Step Functions, the Driver and Vehicle Licensing Agency (DVLA) embarks on a transformative journey to streamline its operations. With over 50 million registered drivers and 40 million vehicles, the DVLA navigates various applications, from driving licences to vehicle registrations. This blog unveils the approach adopted by DVLA to transform its application process, ensuring flexibility and customisation for each application type.&lt;/p&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;As the custodian of millions of driver and vehicle records, DVLA grapples with the complexity of managing diverse applications. From initial licence acquisition to periodic photo licence renewals and vehicle-related transactions, the spectrum of services demands a cohesive yet adaptable framework.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

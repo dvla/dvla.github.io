@@ -9,17 +9,16 @@
       <url>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/categories/gem/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dvla.github.io/categories/gem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artefacts in tests and managing them with Atlas</title>
       <link>https://dvla.github.io/posts/2023-11-artefacts-and-atlas/</link>
       <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-11-artefacts-and-atlas/</guid>
       <description>A look at our concept of artefacts in functional test packs and how we manage them using Atlas.</description>
     </item>
-    
   </channel>
 </rss>

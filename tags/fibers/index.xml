@@ -9,17 +9,16 @@
       <url>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/fibers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dvla.github.io/tags/fibers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Non-Blocking Ruby Methods</title>
       <link>https://dvla.github.io/posts/2024-07-non-blocking-ruby-methods/</link>
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-07-non-blocking-ruby-methods/</guid>
       <description>Make light work of asynchronous Ruby</description>
     </item>
-    
   </channel>
 </rss>

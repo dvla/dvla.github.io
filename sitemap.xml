@@ -3,57 +3,75 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dvla.github.io/categories/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/double-splat/</loc>
+    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/posts/2025-04-04-experimenting-with-rag-llm/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+    <loc>https://dvla.github.io/tags/nil/</loc>
+    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/posts/</loc>
-    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/ruby-ai/</loc>
+    <loc>https://dvla.github.io/categories/ruby/</loc>
+    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/ruby/</loc>
+    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/</loc>
+    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/til/</loc>
+    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/2025-06-09-double-splat-nil/</loc>
+    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/today-i-learned/</loc>
+    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/2025-04-24-kaping-gem-project/</loc>
+    <lastmod>2025-04-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/ruby-elastic/</loc>
+    <lastmod>2025-04-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/ruby-elasticsearch-opensearch/</loc>
+    <lastmod>2025-04-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/2025-04-04-experimenting-with-rag-llm/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/categories/ruby-ai/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/</loc>
+    <loc>https://dvla.github.io/tags/ruby-ai/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/max_by/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/categories/max_by/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/ruby/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/categories/ruby/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/testing/</loc>
+    <loc>https://dvla.github.io/tags/max_by/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/categories/testing/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/categories/til/</loc>
+    <loc>https://dvla.github.io/tags/testing/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/posts/2024-12-using-max-by-in-ruby/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/today-i-learned/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/javascript/</loc>
+    <loc>https://dvla.github.io/categories/javascript/</loc>
     <lastmod>2025-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/categories/javascript/</loc>
+    <loc>https://dvla.github.io/tags/javascript/</loc>
     <lastmod>2025-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/posts/2025-02-postman-paf/</loc>
@@ -62,16 +80,16 @@
     <loc>https://dvla.github.io/tags/ci-pipeline/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/cucumber/</loc>
-    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dvla.github.io/categories/cucumber/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/drone/</loc>
+    <loc>https://dvla.github.io/tags/cucumber/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/categories/drone/</loc>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/drone/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/posts/2024-10-toggle-ruby-tests-through-ci-secrets/</loc>
@@ -101,10 +119,10 @@
     <loc>https://dvla.github.io/posts/2024-07-non-blocking-ruby-methods/</loc>
     <lastmod>2024-07-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/paralleltests/</loc>
+    <loc>https://dvla.github.io/categories/paralleltests/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/categories/paralleltests/</loc>
+    <loc>https://dvla.github.io/tags/paralleltests/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/tags/</loc>
@@ -113,16 +131,16 @@
     <loc>https://dvla.github.io/posts/2024-07-adding-numerous-tags-to-paralleltests-in-cucumber-elegantly/</loc>
     <lastmod>2024-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/aws/</loc>
-    <lastmod>2024-03-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dvla.github.io/categories/aws/</loc>
     <lastmod>2024-03-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/aws-step-functions/</loc>
+    <loc>https://dvla.github.io/tags/aws/</loc>
     <lastmod>2024-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/categories/aws-step-functions/</loc>
+    <lastmod>2024-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/aws-step-functions/</loc>
     <lastmod>2024-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/posts/2024-03-streamline-application-processing/</loc>
@@ -134,10 +152,10 @@
     <loc>https://dvla.github.io/posts/2023-12-logging-blocks/</loc>
     <lastmod>2023-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/spring/</loc>
+    <loc>https://dvla.github.io/categories/spring/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/categories/spring/</loc>
+    <loc>https://dvla.github.io/tags/spring/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/posts/2023-12-spring-security-aws-kms/</loc>
@@ -146,43 +164,43 @@
     <loc>https://dvla.github.io/posts/2023-11-artefacts-and-atlas/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/gem/</loc>
+    <loc>https://dvla.github.io/categories/gem/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/categories/gem/</loc>
+    <loc>https://dvla.github.io/tags/gem/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/posts/2023-11-linux-timeout-command/</loc>
     <lastmod>2023-10-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/kernel/</loc>
+    <loc>https://dvla.github.io/categories/kernel/</loc>
     <lastmod>2023-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/categories/kernel/</loc>
+    <loc>https://dvla.github.io/tags/kernel/</loc>
     <lastmod>2023-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/posts/2023-08-at-exit-hook/</loc>
     <lastmod>2023-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/faker/</loc>
-    <lastmod>2023-08-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dvla.github.io/categories/faker/</loc>
     <lastmod>2023-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/fakermaker/</loc>
+    <loc>https://dvla.github.io/tags/faker/</loc>
     <lastmod>2023-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/categories/fakermaker/</loc>
     <lastmod>2023-08-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://dvla.github.io/tags/fakermaker/</loc>
+    <lastmod>2023-08-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dvla.github.io/posts/2023-08-calling-fakermaker-to-generate-numerous-objects/</loc>
     <lastmod>2023-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/devtools/</loc>
+    <loc>https://dvla.github.io/categories/devtools/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/categories/devtools/</loc>
+    <loc>https://dvla.github.io/tags/devtools/</loc>
     <lastmod>2023-07-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/screenshots/</loc>
@@ -209,10 +227,10 @@
     <loc>https://dvla.github.io/posts/2023-06-efficient-cucumber-step-regex-matching/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/regex/</loc>
+    <loc>https://dvla.github.io/categories/regex/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/categories/regex/</loc>
+    <loc>https://dvla.github.io/tags/regex/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/posts/2023-05-faker-maker-initialisation/</loc>
@@ -233,16 +251,16 @@
     <loc>https://dvla.github.io/open-source/</loc>
     <lastmod>2023-02-27T18:03:22+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/json-schema/</loc>
-    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dvla.github.io/categories/json-schema/</loc>
     <lastmod>2022-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/tags/tooling/</loc>
+    <loc>https://dvla.github.io/tags/json-schema/</loc>
     <lastmod>2022-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/categories/tooling/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/tooling/</loc>
     <lastmod>2022-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/posts/2022-10-working-with-json-schema/</loc>

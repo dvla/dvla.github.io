@@ -9,305 +9,261 @@
       <url>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dvla.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Double Splat</title>
+      <link>https://dvla.github.io/tags/double-splat/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://dvla.github.io/tags/double-splat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nil</title>
+      <link>https://dvla.github.io/tags/nil/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://dvla.github.io/tags/nil/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>https://dvla.github.io/tags/ruby/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://dvla.github.io/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Today I Learned</title>
+      <link>https://dvla.github.io/tags/today-i-learned/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://dvla.github.io/tags/today-i-learned/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby, ElasticSearch, OpenSearch</title>
+      <link>https://dvla.github.io/tags/ruby-elasticsearch-opensearch/</link>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://dvla.github.io/tags/ruby-elasticsearch-opensearch/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ruby, AI</title>
       <link>https://dvla.github.io/tags/ruby-ai/</link>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/ruby-ai/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>max_by</title>
+      <title>Max_by</title>
       <link>https://dvla.github.io/tags/max_by/</link>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/max_by/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Ruby</title>
-      <link>https://dvla.github.io/tags/ruby/</link>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/tags/ruby/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Testing</title>
       <link>https://dvla.github.io/tags/testing/</link>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/testing/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Today I Learned</title>
-      <link>https://dvla.github.io/tags/today-i-learned/</link>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://dvla.github.io/tags/today-i-learned/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>JavaScript</title>
       <link>https://dvla.github.io/tags/javascript/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/javascript/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>CI Pipeline</title>
       <link>https://dvla.github.io/tags/ci-pipeline/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/ci-pipeline/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Cucumber</title>
       <link>https://dvla.github.io/tags/cucumber/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/cucumber/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Drone</title>
       <link>https://dvla.github.io/tags/drone/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/drone/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>exec</title>
+      <title>Exec</title>
       <link>https://dvla.github.io/tags/exec/</link>
       <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/exec/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>system</title>
+      <title>System</title>
       <link>https://dvla.github.io/tags/system/</link>
       <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/system/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Gsub</title>
       <link>https://dvla.github.io/tags/gsub/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/gsub/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Async</title>
       <link>https://dvla.github.io/tags/async/</link>
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/async/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Fibers</title>
       <link>https://dvla.github.io/tags/fibers/</link>
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/fibers/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ParallelTests</title>
       <link>https://dvla.github.io/tags/paralleltests/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/paralleltests/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Tags</title>
       <link>https://dvla.github.io/tags/tags/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/tags/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AWS</title>
       <link>https://dvla.github.io/tags/aws/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/aws/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AWS Step Functions</title>
       <link>https://dvla.github.io/tags/aws-step-functions/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/aws-step-functions/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>logging</title>
+      <title>Logging</title>
       <link>https://dvla.github.io/tags/logging/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/logging/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>spring</title>
+      <title>Spring</title>
       <link>https://dvla.github.io/tags/spring/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/spring/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Gem</title>
       <link>https://dvla.github.io/tags/gem/</link>
       <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/gem/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Kernel</title>
       <link>https://dvla.github.io/tags/kernel/</link>
       <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/kernel/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Faker</title>
       <link>https://dvla.github.io/tags/faker/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/faker/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>FakerMaker</title>
       <link>https://dvla.github.io/tags/fakermaker/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/fakermaker/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>DevTools</title>
       <link>https://dvla.github.io/tags/devtools/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/devtools/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Screenshots</title>
       <link>https://dvla.github.io/tags/screenshots/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/screenshots/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>TiL</title>
       <link>https://dvla.github.io/tags/til/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/til/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Webpages</title>
       <link>https://dvla.github.io/tags/webpages/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/webpages/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Chaos</title>
       <link>https://dvla.github.io/tags/chaos/</link>
       <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/chaos/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Regex</title>
       <link>https://dvla.github.io/tags/regex/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/regex/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>DLQ</title>
       <link>https://dvla.github.io/tags/dlq/</link>
       <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/dlq/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>json-schema</title>
+      <title>Json-Schema</title>
       <link>https://dvla.github.io/tags/json-schema/</link>
       <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/json-schema/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tooling</title>
+      <title>Tooling</title>
       <link>https://dvla.github.io/tags/tooling/</link>
       <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/tags/tooling/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -9,17 +9,16 @@
       <url>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dvla.github.io/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The at_exit function</title>
       <link>https://dvla.github.io/posts/2023-08-at-exit-hook/</link>
       <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-08-at-exit-hook/</guid>
       <description>Using the at_exit function to run functions when a program exits</description>
     </item>
-    
   </channel>
 </rss>

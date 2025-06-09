@@ -9,143 +9,121 @@
       <url>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dvla.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TiL: Double Splat Nil in Ruby</title>
+      <link>https://dvla.github.io/posts/2025-06-09-double-splat-nil/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://dvla.github.io/posts/2025-06-09-double-splat-nil/</guid>
+      <description>What is a Double Splat Nil and how does it help clamp down on unwanted named arguments</description>
+    </item>
     <item>
       <title>TiL: Using the max_by method in Ruby</title>
       <link>https://dvla.github.io/posts/2024-12-using-max-by-in-ruby/</link>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-12-using-max-by-in-ruby/</guid>
       <description>Using max_by to filter out data based on the highest value for a particular field</description>
     </item>
-    
     <item>
       <title>Toggling Ruby scenarios in Drone using secrets</title>
       <link>https://dvla.github.io/posts/2024-10-toggle-ruby-tests-through-ci-secrets/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-10-toggle-ruby-tests-through-ci-secrets/</guid>
       <description>How to toggle Ruby scenarios to be run in a CI pipeline, from secrets to Cucumber tags</description>
     </item>
-    
     <item>
       <title>TiL: The difference between exec and system in Ruby</title>
       <link>https://dvla.github.io/posts/2024-09-ruby-exec-vs-system/</link>
       <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-09-ruby-exec-vs-system/</guid>
       <description>What exactly are exec and system doing and why do they differ?</description>
     </item>
-    
     <item>
       <title>TiL: Doing multiple replacements with gsub in Ruby</title>
       <link>https://dvla.github.io/posts/2024-07-ruby-gsub-hashes/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-07-ruby-gsub-hashes/</guid>
       <description>How to make multiple changes to a string with only one gsub call</description>
     </item>
-    
     <item>
       <title>Non-Blocking Ruby Methods</title>
       <link>https://dvla.github.io/posts/2024-07-non-blocking-ruby-methods/</link>
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-07-non-blocking-ruby-methods/</guid>
       <description>Make light work of asynchronous Ruby</description>
     </item>
-    
     <item>
       <title>TiL: Adding numerous tags to ParallelTests in cucumber elegantly </title>
       <link>https://dvla.github.io/posts/2024-07-adding-numerous-tags-to-paralleltests-in-cucumber-elegantly/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-07-adding-numerous-tags-to-paralleltests-in-cucumber-elegantly/</guid>
       <description>Creating numerous tags to be included/excluded for ParallelTests in cucumber elegantly</description>
     </item>
-    
     <item>
       <title>TiL: Save CPU cycles by logging blocks</title>
       <link>https://dvla.github.io/posts/2023-12-logging-blocks/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-12-logging-blocks/</guid>
       <description>A look at passing blocks into loggers in Ruby.</description>
     </item>
-    
     <item>
       <title>Artefacts in tests and managing them with Atlas</title>
       <link>https://dvla.github.io/posts/2023-11-artefacts-and-atlas/</link>
       <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-11-artefacts-and-atlas/</guid>
       <description>A look at our concept of artefacts in functional test packs and how we manage them using Atlas.</description>
     </item>
-    
     <item>
       <title>The at_exit function</title>
       <link>https://dvla.github.io/posts/2023-08-at-exit-hook/</link>
       <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-08-at-exit-hook/</guid>
       <description>Using the at_exit function to run functions when a program exits</description>
     </item>
-    
     <item>
       <title>TiL: Generating numerous FakerMaker objects in one call</title>
       <link>https://dvla.github.io/posts/2023-08-calling-fakermaker-to-generate-numerous-objects/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-08-calling-fakermaker-to-generate-numerous-objects/</guid>
       <description>Creating numerous FakerMaker objects and storing in an Array, in one call.</description>
     </item>
-    
     <item>
       <title>FakerMaker Chaos Mode Update</title>
       <link>https://dvla.github.io/posts/2023-06-faker-maker-chaos-update/</link>
       <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-06-faker-maker-chaos-update/</guid>
       <description>Introducing the Chaos mode update for FakerMaker</description>
     </item>
-    
     <item>
       <title>Efficient Cucumber Step Regex Matching</title>
       <link>https://dvla.github.io/posts/2023-06-efficient-cucumber-step-regex-matching/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-06-efficient-cucumber-step-regex-matching/</guid>
       <description>How to utilise powerful regex to write better cucumber step definitions</description>
     </item>
-    
     <item>
       <title>FakerMaker Initialisation</title>
       <link>https://dvla.github.io/posts/2023-05-faker-maker-initialisation/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-05-faker-maker-initialisation/</guid>
       <description>Initialising FakerMaker objects and doing so with greater efficiency.</description>
     </item>
-    
     <item>
       <title>Why we wrote Herodotus</title>
       <link>https://dvla.github.io/posts/2023-05-logging-with-herodotus/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-05-logging-with-herodotus/</guid>
       <description>A look at the gem Herodotus and the problems we have been using it to solve.</description>
     </item>
-    
     <item>
       <title>Testing Standard-Out in Ruby</title>
       <link>https://dvla.github.io/posts/2023-05-testing-standard-out-in-ruby/</link>
       <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-05-testing-standard-out-in-ruby/</guid>
       <description>How to test output written to STDOUT.</description>
     </item>
-    
   </channel>
 </rss>

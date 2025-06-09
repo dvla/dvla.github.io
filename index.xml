@@ -9,228 +9,199 @@
       <url>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://dvla.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dvla.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TiL: Double Splat Nil in Ruby</title>
+      <link>https://dvla.github.io/posts/2025-06-09-double-splat-nil/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://dvla.github.io/posts/2025-06-09-double-splat-nil/</guid>
+      <description>What is a Double Splat Nil and how does it help clamp down on unwanted named arguments</description>
+    </item>
+    <item>
+      <title>KA-PING! a gem to integrated with Elastic and OpenSearch</title>
+      <link>https://dvla.github.io/posts/2025-04-24-kaping-gem-project/</link>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://dvla.github.io/posts/2025-04-24-kaping-gem-project/</guid>
+      <description>Idiomatic may to build complex OpenSearch queries in Ruby.</description>
+    </item>
     <item>
       <title>Experimenting with Retrieval Augmented Generation (RAG) with LLMs</title>
       <link>https://dvla.github.io/posts/2025-04-04-experimenting-with-rag-llm/</link>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2025-04-04-experimenting-with-rag-llm/</guid>
       <description>Giving an LLM some external context with Ruby.</description>
     </item>
-    
     <item>
       <title>TiL: Using the max_by method in Ruby</title>
       <link>https://dvla.github.io/posts/2024-12-using-max-by-in-ruby/</link>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-12-using-max-by-in-ruby/</guid>
       <description>Using max_by to filter out data based on the highest value for a particular field</description>
     </item>
-    
     <item>
       <title>Postman-Paf-js</title>
       <link>https://dvla.github.io/posts/2025-02-postman-paf/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2025-02-postman-paf/</guid>
       <description>Open Source library to apply Royal Mail Rules &amp;amp; Exceptions to PAF (Postcode Address File) addresses when converting to a printable format.</description>
     </item>
-    
     <item>
       <title>Toggling Ruby scenarios in Drone using secrets</title>
       <link>https://dvla.github.io/posts/2024-10-toggle-ruby-tests-through-ci-secrets/</link>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-10-toggle-ruby-tests-through-ci-secrets/</guid>
       <description>How to toggle Ruby scenarios to be run in a CI pipeline, from secrets to Cucumber tags</description>
     </item>
-    
     <item>
       <title>TiL: The difference between exec and system in Ruby</title>
       <link>https://dvla.github.io/posts/2024-09-ruby-exec-vs-system/</link>
       <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-09-ruby-exec-vs-system/</guid>
       <description>What exactly are exec and system doing and why do they differ?</description>
     </item>
-    
     <item>
       <title>TiL: Doing multiple replacements with gsub in Ruby</title>
       <link>https://dvla.github.io/posts/2024-07-ruby-gsub-hashes/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-07-ruby-gsub-hashes/</guid>
       <description>How to make multiple changes to a string with only one gsub call</description>
     </item>
-    
     <item>
       <title>Non-Blocking Ruby Methods</title>
       <link>https://dvla.github.io/posts/2024-07-non-blocking-ruby-methods/</link>
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-07-non-blocking-ruby-methods/</guid>
       <description>Make light work of asynchronous Ruby</description>
     </item>
-    
     <item>
       <title>TiL: Adding numerous tags to ParallelTests in cucumber elegantly </title>
       <link>https://dvla.github.io/posts/2024-07-adding-numerous-tags-to-paralleltests-in-cucumber-elegantly/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-07-adding-numerous-tags-to-paralleltests-in-cucumber-elegantly/</guid>
       <description>Creating numerous tags to be included/excluded for ParallelTests in cucumber elegantly</description>
     </item>
-    
     <item>
       <title>How AWS Step Functions helped streamline the DVLA&#39;s application process</title>
       <link>https://dvla.github.io/posts/2024-03-streamline-application-processing/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2024-03-streamline-application-processing/</guid>
-      <description>Introduction Harnessing the power of AWS Step Functions, the Driver and Vehicle Licensing Agency (DVLA) embarks on a transformative journey to streamline its operations. With over 50 million registered drivers and 40 million vehicles, the DVLA navigates various applications, from driving licences to vehicle registrations. This blog unveils the approach adopted by DVLA to transform its application process, ensuring flexibility and customisation for each application type.
-Background As the custodian of millions of driver and vehicle records, DVLA grapples with the complexity of managing diverse applications.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Harnessing the power of AWS Step Functions, the Driver and Vehicle Licensing Agency (DVLA) embarks on a transformative journey to streamline its operations. With over 50 million registered drivers and 40 million vehicles, the DVLA navigates various applications, from driving licences to vehicle registrations. This blog unveils the approach adopted by DVLA to transform its application process, ensuring flexibility and customisation for each application type.&lt;/p&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;As the custodian of millions of driver and vehicle records, DVLA grapples with the complexity of managing diverse applications. From initial licence acquisition to periodic photo licence renewals and vehicle-related transactions, the spectrum of services demands a cohesive yet adaptable framework.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>TiL: Save CPU cycles by logging blocks</title>
       <link>https://dvla.github.io/posts/2023-12-logging-blocks/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-12-logging-blocks/</guid>
       <description>A look at passing blocks into loggers in Ruby.</description>
     </item>
-    
     <item>
       <title>Spring Security private key jwt with AWS KMS</title>
       <link>https://dvla.github.io/posts/2023-12-spring-security-aws-kms/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-12-spring-security-aws-kms/</guid>
       <description>How to configure spring security to use private key jwt with AWS KMS</description>
     </item>
-    
     <item>
       <title>Artefacts in tests and managing them with Atlas</title>
       <link>https://dvla.github.io/posts/2023-11-artefacts-and-atlas/</link>
       <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-11-artefacts-and-atlas/</guid>
       <description>A look at our concept of artefacts in functional test packs and how we manage them using Atlas.</description>
     </item>
-    
     <item>
       <title>Linux timeout command</title>
       <link>https://dvla.github.io/posts/2023-11-linux-timeout-command/</link>
       <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-11-linux-timeout-command/</guid>
       <description>Ensuring a stale drone step is timed out</description>
     </item>
-    
     <item>
       <title>The at_exit function</title>
       <link>https://dvla.github.io/posts/2023-08-at-exit-hook/</link>
       <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-08-at-exit-hook/</guid>
       <description>Using the at_exit function to run functions when a program exits</description>
     </item>
-    
     <item>
       <title>TiL: Generating numerous FakerMaker objects in one call</title>
       <link>https://dvla.github.io/posts/2023-08-calling-fakermaker-to-generate-numerous-objects/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-08-calling-fakermaker-to-generate-numerous-objects/</guid>
       <description>Creating numerous FakerMaker objects and storing in an Array, in one call.</description>
     </item>
-    
     <item>
       <title>TiL: Take full-length screenshots using DevTools</title>
       <link>https://dvla.github.io/posts/2023-07-taking-full-length-screenshots/</link>
       <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-07-taking-full-length-screenshots/</guid>
       <description>How to take full-length screenshots of webpages using DevTools</description>
     </item>
-    
     <item>
       <title>FakerMaker Chaos Mode Update</title>
       <link>https://dvla.github.io/posts/2023-06-faker-maker-chaos-update/</link>
       <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-06-faker-maker-chaos-update/</guid>
       <description>Introducing the Chaos mode update for FakerMaker</description>
     </item>
-    
     <item>
       <title>Efficient Cucumber Step Regex Matching</title>
       <link>https://dvla.github.io/posts/2023-06-efficient-cucumber-step-regex-matching/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-06-efficient-cucumber-step-regex-matching/</guid>
       <description>How to utilise powerful regex to write better cucumber step definitions</description>
     </item>
-    
     <item>
       <title>FakerMaker Initialisation</title>
       <link>https://dvla.github.io/posts/2023-05-faker-maker-initialisation/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-05-faker-maker-initialisation/</guid>
       <description>Initialising FakerMaker objects and doing so with greater efficiency.</description>
     </item>
-    
     <item>
       <title>Why we wrote Herodotus</title>
       <link>https://dvla.github.io/posts/2023-05-logging-with-herodotus/</link>
       <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-05-logging-with-herodotus/</guid>
       <description>A look at the gem Herodotus and the problems we have been using it to solve.</description>
     </item>
-    
     <item>
       <title>Testing Standard-Out in Ruby</title>
       <link>https://dvla.github.io/posts/2023-05-testing-standard-out-in-ruby/</link>
       <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-05-testing-standard-out-in-ruby/</guid>
       <description>How to test output written to STDOUT.</description>
     </item>
-    
     <item>
       <title>Improving our dead-letter queues</title>
       <link>https://dvla.github.io/posts/2023-03-improving-our-dead-letter-queues/</link>
       <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2023-03-improving-our-dead-letter-queues/</guid>
       <description>Lessons learnt the hard way about dead letter retention limits and alarm configuration.</description>
     </item>
-    
     <item>
       <title>DVLA open-source projects</title>
       <link>https://dvla.github.io/open-source/</link>
       <pubDate>Mon, 27 Feb 2023 18:03:22 +0000</pubDate>
-      
       <guid>https://dvla.github.io/open-source/</guid>
-      <description>Ok so we don&amp;rsquo;t code entirely in the open at the DVLA we do like to share useful libraries and utilities when we can. You can find a list of recent open-source projects below.
-AWS aws-sqs-utility A command-line utility that provides the ability to read, write and transform messages on a AWS SQS queue. The following queue actions are available: List, Extract, Load, Delete.
-sqs-extended-client A library for managing large AWS SQS message payloads using S3.</description>
+      <description>&lt;p&gt;Ok so we don&amp;rsquo;t code entirely &lt;a href=&#34;https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open&#34;&gt;in the open&lt;/a&gt; at the DVLA we do like to share useful libraries and utilities when we can. You can find a list of recent open-source projects below.&lt;/p&gt;
+&lt;h2 id=&#34;aws&#34;&gt;AWS&lt;/h2&gt;
+&lt;h3 id=&#34;aws-sqs-utility&#34;&gt;&lt;a href=&#34;https://github.com/dvla/aws-sqs-utility&#34;&gt;aws-sqs-utility&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A command-line utility that provides the ability to read, write and transform messages on a AWS SQS queue. The following queue actions are available: List, Extract, Load, Delete.&lt;/p&gt;
+&lt;h3 id=&#34;sqs-extended-client&#34;&gt;&lt;a href=&#34;https://github.com/dvla/sqs-extended-client&#34;&gt;sqs-extended-client&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A library for managing large AWS SQS message payloads using S3. In particular it supports message payloads that exceed the 256KB SQS limit. It is largely a Javascript version of the Amazon SQS &lt;a href=&#34;https://github.com/awslabs/amazon-sqs-java-extended-client-lib&#34;&gt;Extended Client Library for Java&lt;/a&gt;, although not an exact copy.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Working with JSON Schema</title>
       <link>https://dvla.github.io/posts/2022-10-working-with-json-schema/</link>
       <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://dvla.github.io/posts/2022-10-working-with-json-schema/</guid>
       <description>How we use JSON schema to describe data models, produce human friendly documentation and generate code.</description>
     </item>
-    
-    
   </channel>
 </rss>

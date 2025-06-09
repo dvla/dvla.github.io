@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ruby, Elastic on DVLA Engineering</title>
+    <link>https://dvla.github.io/categories/ruby-elastic/</link>
+    <description>Recent content in Ruby, Elastic on DVLA Engineering</description>
+    <image>
+      <title>DVLA Engineering</title>
+      <url>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 24 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dvla.github.io/categories/ruby-elastic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KA-PING! a gem to integrated with Elastic and OpenSearch</title>
+      <link>https://dvla.github.io/posts/2025-04-24-kaping-gem-project/</link>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://dvla.github.io/posts/2025-04-24-kaping-gem-project/</guid>
+      <description>Idiomatic may to build complex OpenSearch queries in Ruby.</description>
+    </item>
+  </channel>
+</rss>
