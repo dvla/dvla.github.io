@@ -21,6 +21,13 @@
       <description>What is a Double Splat Nil and how does it help clamp down on unwanted named arguments</description>
     </item>
     <item>
+      <title>Checking for existing user in Atlas</title>
+      <link>https://dvla.github.io/posts/2025-05-29-checking-for-atlas-users-before-creating/</link>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://dvla.github.io/posts/2025-05-29-checking-for-atlas-users-before-creating/</guid>
+      <description>Check if a user exists in Atlas and create one if it doesn&amp;#39;t</description>
+    </item>
+    <item>
       <title>TiL: Using the max_by method in Ruby</title>
       <link>https://dvla.github.io/posts/2024-12-using-max-by-in-ruby/</link>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
