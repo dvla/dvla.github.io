@@ -2,28 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dvla.github.io/tags/accessibility/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/categories/ai/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/ai/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/audio/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dvla.github.io/categories/</loc>
-    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/2026-02-01-generating-ai-audio/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/generative-ai/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/posts/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dvla.github.io/tags/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/double-splat/</loc>
     <lastmod>2025-06-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dvla.github.io/</loc>
-    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dvla.github.io/tags/nil/</loc>
-    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/posts/</loc>
     <lastmod>2025-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/categories/ruby/</loc>
     <lastmod>2025-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/tags/ruby/</loc>
-    <lastmod>2025-06-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dvla.github.io/tags/</loc>
     <lastmod>2025-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dvla.github.io/categories/til/</loc>

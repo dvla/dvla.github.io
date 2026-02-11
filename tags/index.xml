@@ -9,10 +9,38 @@
       <url>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://dvla.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.147.8</generator>
+    <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dvla.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accessibility</title>
+      <link>https://dvla.github.io/tags/accessibility/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://dvla.github.io/tags/accessibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://dvla.github.io/tags/ai/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://dvla.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Audio</title>
+      <link>https://dvla.github.io/tags/audio/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://dvla.github.io/tags/audio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generative AI</title>
+      <link>https://dvla.github.io/tags/generative-ai/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://dvla.github.io/tags/generative-ai/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Double Splat</title>
       <link>https://dvla.github.io/tags/double-splat/</link>
